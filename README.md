@@ -1,6 +1,6 @@
-# Prime_EXL
+# Prime_BLE
 
-![Prime_BLE](https://i.imgur.com/3t524g8.jpg)
+![Prime_BLE]()
 
 An ergonomic bluetooth 45% keyboard with a macro/numpad added to the left side. 
 
