@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LED0805_NOOUTLINE-Adafruit_Feather_32u4_Bluefruit_LE-eagle-import
+#
+DEF LED0805_NOOUTLINE-Adafruit_Feather_32u4_Bluefruit_LE-eagle-import D 0 40 Y Y 1 L N
+F0 "D" -50 175 42 H V C CNN
+F1 "LED0805_NOOUTLINE-Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" -50 -110 42 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -50 0 0 N
+P 2 1 0 0 -100 50 -100 -50 N
+P 2 1 0 0 -75 50 -25 100 N
+P 2 1 0 0 -37 112 -12 87 N
+P 2 1 0 0 -25 50 25 100 N
+P 2 1 0 0 -12 87 0 125 N
+P 2 1 0 0 0 0 -100 50 N
+P 2 1 0 0 0 0 0 -50 N
+P 2 1 0 0 0 50 0 0 N
+P 2 1 0 0 0 125 -37 112 N
+P 2 1 0 0 12 112 37 87 N
+P 2 1 0 0 37 87 50 125 N
+P 2 1 0 0 50 125 12 112 N
+X A A -200 0 100 R 0 0 1 0 P
+X C C 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

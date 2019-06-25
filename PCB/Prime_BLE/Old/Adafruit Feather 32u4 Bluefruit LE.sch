@@ -1,0 +1,3481 @@
+EESchema Schematic File Version 4
+LIBS:Adafruit Feather 32u4 Bluefruit LE-cache
+EELAYER 29 0
+EELAYER END
+$Descr User 11988 8468
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3700 2100 3700 2200
+Text Label 3700 2100 0    10   ~ 0
+GND
+Wire Wire Line
+	2000 2100 2000 2200
+Text Label 2000 2100 0    10   ~ 0
+GND
+Wire Wire Line
+	3400 2100 3400 2200
+Text Label 3400 2100 0    10   ~ 0
+GND
+Wire Wire Line
+	8050 2050 8150 2050
+Wire Wire Line
+	8150 2050 8150 2150
+Text Label 8050 2050 0    10   ~ 0
+GND
+Wire Wire Line
+	9250 3250 9250 3450
+Wire Wire Line
+	9250 3450 9250 3550
+Wire Wire Line
+	9250 3550 9250 3650
+Wire Wire Line
+	9250 3650 9250 3750
+Connection ~ 9250 3450
+Connection ~ 9250 3550
+Connection ~ 9250 3650
+Text Label 9250 3250 0    10   ~ 0
+GND
+Wire Wire Line
+	8550 2850 8650 2850
+Text Label 8550 2850 0    10   ~ 0
+GND
+Wire Wire Line
+	4600 2000 4600 2200
+Text Label 4600 2000 0    10   ~ 0
+GND
+Wire Wire Line
+	6000 1800 6000 1700
+Wire Wire Line
+	6000 1600 6000 1700
+Connection ~ 6000 1700
+Text Label 6000 1800 0    10   ~ 0
+GND
+Wire Wire Line
+	2500 1700 2500 2200
+Text Label 2500 1700 0    10   ~ 0
+GND
+Wire Wire Line
+	5600 6000 5600 6100
+Text Label 5600 6000 0    10   ~ 0
+GND
+Wire Wire Line
+	6000 6000 6000 6100
+Text Label 6000 6000 0    10   ~ 0
+GND
+Wire Wire Line
+	3700 6800 3700 6900
+Text Label 3700 6800 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 4800 1800 4800
+Wire Wire Line
+	1800 4800 1800 4900
+Wire Wire Line
+	1900 4700 1800 4700
+Wire Wire Line
+	1800 4700 1800 4800
+Connection ~ 1800 4800
+Text Label 1900 4800 0    10   ~ 0
+GND
+Wire Wire Line
+	4300 4700 4400 4700
+Text Label 4300 4700 0    10   ~ 0
+GND
+Wire Wire Line
+	3000 7200 3100 7200
+Text Label 3000 7200 0    10   ~ 0
+GND
+Wire Wire Line
+	4900 3700 4900 3400
+Text Label 4900 3700 0    10   ~ 0
+GND
+Wire Wire Line
+	3600 3500 3600 3600
+Wire Wire Line
+	3600 3600 3600 3700
+Wire Wire Line
+	3000 3600 3600 3600
+Connection ~ 3600 3600
+Text Label 3600 3500 0    10   ~ 0
+GND
+Wire Wire Line
+	8850 1750 9050 1750
+Wire Wire Line
+	9050 1750 9250 1950
+Wire Wire Line
+	8550 1850 9050 1850
+Wire Wire Line
+	9050 1850 9250 2050
+Wire Wire Line
+	1300 5700 1900 5700
+Text Label 1300 5700 0    70   ~ 0
+MOSI
+Wire Wire Line
+	11150 2650 11750 2650
+Text Label 11250 2650 0    70   ~ 0
+MOSI
+Wire Wire Line
+	1300 5600 1900 5600
+Text Label 1300 5600 0    70   ~ 0
+MISO
+Wire Wire Line
+	11150 2550 11750 2550
+Text Label 11250 2550 0    70   ~ 0
+MISO
+Wire Wire Line
+	1300 5500 1900 5500
+Text Label 1300 5500 0    70   ~ 0
+SCK
+Wire Wire Line
+	11150 2750 11750 2750
+Text Label 11250 2750 0    70   ~ 0
+SCK
+Wire Wire Line
+	9250 850  9050 850 
+Text Label 9050 850  0    70   ~ 0
+RST
+Wire Wire Line
+	5600 1700 5600 1600
+Wire Wire Line
+	5400 1700 5600 1700
+Connection ~ 5600 1700
+Text Label 5400 1700 0    70   ~ 0
+RST
+Wire Wire Line
+	8950 2950 9250 2950
+Wire Wire Line
+	8950 2650 9250 2650
+Wire Wire Line
+	8950 2650 8950 2750
+Wire Wire Line
+	11150 850  11750 850 
+Text Label 11250 850  0    70   ~ 0
+A5
+Wire Wire Line
+	11150 950  11750 950 
+Text Label 11250 950  0    70   ~ 0
+A4
+Wire Wire Line
+	11150 1050 11750 1050
+Text Label 11250 1050 0    70   ~ 0
+A3
+Wire Wire Line
+	11150 1150 11750 1150
+Text Label 11250 1150 0    70   ~ 0
+A2
+Wire Wire Line
+	11150 1250 11750 1250
+Text Label 11250 1250 0    70   ~ 0
+A1
+Wire Wire Line
+	11150 1850 11750 1850
+Text Label 11250 1850 0    70   ~ 0
+5
+Wire Wire Line
+	11150 2150 11750 2150
+Text Label 11250 2150 0    70   ~ 0
+11
+Wire Wire Line
+	11150 2250 11750 2250
+Text Label 11250 2250 0    70   ~ 0
+10
+Wire Wire Line
+	11150 2450 11750 2450
+Text Label 11250 2450 0    70   ~ 0
+8_BLE_CS
+Wire Wire Line
+	1300 5800 1900 5800
+Text Label 1300 5800 0    70   ~ 0
+8_BLE_CS
+Wire Wire Line
+	11150 3050 11750 3050
+Text Label 11250 3050 0    70   ~ 0
+6
+Wire Wire Line
+	11150 3150 11750 3150
+Text Label 11250 3150 0    70   ~ 0
+12
+Wire Wire Line
+	11150 3650 11750 3650
+Text Label 11250 3650 0    70   ~ 0
+2
+Wire Wire Line
+	11150 1650 11750 1650
+Text Label 11250 1650 0    70   ~ 0
+7_BLE_IRQ
+Wire Wire Line
+	1300 5900 1900 5900
+Text Label 1300 5900 0    70   ~ 0
+7_BLE_IRQ
+Wire Wire Line
+	8150 1750 8450 1750
+Wire Wire Line
+	8650 2450 9250 2450
+Text Label 8750 2450 0    70   ~ 0
+AREF
+Wire Wire Line
+	4600 1700 4600 1300
+Text Label 4600 1600 1    70   ~ 0
+AREF
+Wire Wire Line
+	11150 3450 11750 3450
+Text Label 11250 3450 0    70   ~ 0
+1
+Wire Wire Line
+	11750 3550 11150 3550
+Text Label 11250 3550 0    70   ~ 0
+0
+Wire Wire Line
+	3300 1500 3400 1500
+Wire Wire Line
+	3400 1500 3700 1500
+Wire Wire Line
+	3700 1500 3700 1400
+Wire Wire Line
+	3700 1500 3700 1800
+Wire Wire Line
+	3400 1800 3400 1500
+Connection ~ 3700 1500
+Connection ~ 3400 1500
+Text Label 3300 1500 0    10   ~ 0
++3V3
+Wire Wire Line
+	9250 1450 9250 1350
+Wire Wire Line
+	8750 1450 9250 1450
+Wire Wire Line
+	9250 1750 9250 1650
+Wire Wire Line
+	9250 1650 8750 1650
+Wire Wire Line
+	8750 1650 8750 1450
+Wire Wire Line
+	8750 1450 8750 1350
+Connection ~ 9250 1450
+Connection ~ 9250 1650
+Connection ~ 8750 1450
+Text Label 9250 1450 0    10   ~ 0
++3V3
+Wire Wire Line
+	9250 2250 8950 2250
+Wire Wire Line
+	8950 2250 8950 2050
+Wire Wire Line
+	8950 2050 8450 2050
+Connection ~ 8950 2050
+Text Label 9250 2250 0    10   ~ 0
++3V3
+Wire Wire Line
+	11150 1550 11350 1550
+Text Label 11150 1550 0    10   ~ 0
++3V3
+Wire Wire Line
+	1900 5400 1300 5400
+Wire Wire Line
+	1300 5400 1300 5300
+Text Label 1900 5400 0    10   ~ 0
++3V3
+Wire Wire Line
+	2600 6800 2600 7200
+Wire Wire Line
+	2600 7200 2300 7200
+Wire Wire Line
+	2300 7200 2300 7000
+Wire Wire Line
+	2600 7200 2700 7200
+Connection ~ 2600 7200
+Text Label 2600 6800 0    10   ~ 0
++3V3
+Wire Wire Line
+	1800 1000 1800 1500
+Wire Wire Line
+	2500 1500 2000 1500
+Wire Wire Line
+	2000 1500 2000 1600
+Wire Wire Line
+	2000 1600 2000 1800
+Wire Wire Line
+	2000 1300 2000 1500
+Wire Wire Line
+	1800 1500 2000 1500
+Connection ~ 2000 1500
+Connection ~ 2000 1600
+Text Label 1800 1000 0    10   ~ 0
+VBUS
+Wire Wire Line
+	8050 1650 8150 1650
+Wire Wire Line
+	8150 1650 8150 1550
+Wire Wire Line
+	8850 1050 8850 950 
+Wire Wire Line
+	9250 1050 8950 1050
+Text Label 8850 1050 0    10   ~ 0
+VBUS
+Wire Wire Line
+	1200 3100 1200 3200
+Wire Wire Line
+	1200 3200 2000 3200
+Wire Wire Line
+	2000 3200 2000 3400
+Wire Wire Line
+	1300 3600 1200 3600
+Connection ~ 1200 3200
+Text Label 1200 3100 0    10   ~ 0
+VBUS
+Wire Wire Line
+	2000 1000 2000 1100
+Text Label 2000 1000 0    10   ~ 0
+VBAT
+Wire Wire Line
+	4900 2900 4900 3300
+Text Label 4900 2900 0    10   ~ 0
+VBAT
+Wire Wire Line
+	3800 3400 3700 3300
+Wire Wire Line
+	3700 3300 3100 3300
+Wire Wire Line
+	3100 3300 3000 3400
+Wire Wire Line
+	3800 3400 3800 3300
+Connection ~ 3800 3400
+Text Label 3800 3400 0    10   ~ 0
+VBAT
+Text Label 4400 5300 0    70   ~ 0
+SWCLK
+Text Label 4400 5400 0    70   ~ 0
+4_SWDIO/RST
+Wire Wire Line
+	11150 3350 11750 3350
+Text Label 11250 3350 0    70   ~ 0
+4_SWDIO/RST
+Wire Wire Line
+	4300 5100 5600 5100
+Wire Wire Line
+	5600 5100 5600 5200
+Text Label 4400 5100 0    70   ~ 0
+MODE
+Wire Wire Line
+	4300 5000 6000 5000
+Wire Wire Line
+	6000 5000 6000 5200
+Text Label 4400 5000 0    70   ~ 0
+CONNECTED
+Wire Wire Line
+	5600 5600 5600 5700
+Wire Wire Line
+	6000 5600 6000 5700
+Wire Wire Line
+	3600 6800 3600 7200
+Text Label 3600 7100 1    70   ~ 0
+DFU
+Text Label 4400 5500 0    70   ~ 0
+FCTRYRST
+Wire Wire Line
+	11150 1950 11750 1950
+Text Label 11250 1950 0    70   ~ 0
+13
+Wire Wire Line
+	11150 1350 11750 1350
+Text Label 11250 1350 0    70   ~ 0
+A0
+Wire Wire Line
+	11150 2350 11750 2350
+Text Label 11250 2350 0    70   ~ 0
+9
+Wire Wire Line
+	4400 3300 4100 3300
+Connection ~ 4400 3300
+Text Label 4100 3300 0    70   ~ 0
+9
+Wire Wire Line
+	11150 3750 11750 3750
+Text Label 11250 3750 0    70   ~ 0
+3
+Wire Wire Line
+	3000 3500 3200 3500
+Wire Wire Line
+	2400 1600 2450 1600
+Text Label 2400 1600 0    70   ~ 0
+EN
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:FRAME_A4 #FRAME1
+U 2 0 CC96BE8F
+P 4600 14950
+F 0 "#FRAME1" H 4600 14950 50  0001 C CNN
+F 1 "FRAME_A4" H 4600 14950 50  0001 C CNN
+F 2 "" H 4600 14950 50  0001 C CNN
+F 3 "" H 4600 14950 50  0001 C CNN
+	2    4600 14950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:CAP_CERAMIC0805-NOOUTLINE C6
+U 1 0 6333BD7E
+P 2000 2000
+F 0 "C6" V 1910 2049 50  0000 C CNN
+F 1 "10µF" V 2090 2049 50  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0805-NO" H 2000 2000 50  0001 C CNN
+F 3 "" H 2000 2000 50  0001 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:CAP_CERAMIC0603_NO C7
+U 1 0 A5E7C4B6
+P 3700 2000
+F 0 "C7" V 3610 2049 50  0000 C CNN
+F 1 "1uF" V 3790 2049 50  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 3700 2000 50  0001 C CNN
+F 3 "" H 3700 2000 50  0001 C CNN
+	1    3700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$027
+U 1 0 88B45EA1
+P 2000 2300
+F 0 "#U$027" H 2000 2300 50  0001 C CNN
+F 1 "GND" H 1900 2200 59  0000 L BNN
+F 2 "" H 2000 2300 50  0001 C CNN
+F 3 "" H 2000 2300 50  0001 C CNN
+	1    2000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$028
+U 1 0 EC169927
+P 3700 2300
+F 0 "#U$028" H 3700 2300 50  0001 C CNN
+F 1 "GND" H 3600 2200 59  0000 L BNN
+F 2 "" H 3700 2300 50  0001 C CNN
+F 3 "" H 3700 2300 50  0001 C CNN
+	1    3700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:CAP_CERAMIC0805-NOOUTLINE C8
+U 1 0 4085EC5D
+P 3400 2000
+F 0 "C8" V 3310 2049 50  0000 C CNN
+F 1 "10µF" V 3490 2049 50  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0805-NO" H 3400 2000 50  0001 C CNN
+F 3 "" H 3400 2000 50  0001 C CNN
+	1    3400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$029
+U 1 0 9452B865
+P 3400 2300
+F 0 "#U$029" H 3400 2300 50  0001 C CNN
+F 1 "GND" H 3300 2200 59  0000 L BNN
+F 2 "" H 3400 2300 50  0001 C CNN
+F 3 "" H 3400 2300 50  0001 C CNN
+	1    3400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$030
+U 1 0 A87AFBDE
+P 2500 2300
+F 0 "#U$030" H 2500 2300 50  0001 C CNN
+F 1 "GND" H 2400 2200 59  0000 L BNN
+F 2 "" H 2500 2300 50  0001 C CNN
+F 3 "" H 2500 2300 50  0001 C CNN
+	1    2500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESISTOR_0603_NOOUT R4
+U 1 0 65B6CA22
+P 8650 1750
+F 0 "R4" H 8650 1850 50  0000 C CNN
+F 1 "22" H 8650 1750 40  0000 C CNB
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 8650 1750 50  0001 C CNN
+F 3 "" H 8650 1750 50  0001 C CNN
+	1    8650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESISTOR_0603_NOOUT R5
+U 1 0 15CD18EF
+P 8350 1850
+F 0 "R5" H 8350 1950 50  0000 C CNN
+F 1 "22" H 8350 1850 40  0000 C CNB
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 8350 1850 50  0001 C CNN
+F 3 "" H 8350 1850 50  0001 C CNN
+	1    8350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #GND01
+U 1 0 8DA2BB24
+P 8150 2350
+F 0 "#GND01" H 8150 2350 50  0001 C CNN
+F 1 "GND" H 8050 2250 59  0000 L BNN
+F 2 "" H 8150 2350 50  0001 C CNN
+F 3 "" H 8150 2350 50  0001 C CNN
+	1    8150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #GND02
+U 1 0 4877C9E2
+P 9150 3650
+F 0 "#GND02" H 9150 3650 50  0001 C CNN
+F 1 "GND" H 9050 3550 59  0000 L BNN
+F 2 "" H 9150 3650 50  0001 C CNN
+F 3 "" H 9150 3650 50  0001 C CNN
+	1    9150 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:CAP_CERAMIC_0805MP C9
+U 1 0 BE642B3C
+P 8450 2250
+F 0 "C9" V 8360 2299 50  0000 C CNN
+F 1 "10uF" V 8540 2299 50  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:_0805MP" H 8450 2250 50  0001 C CNN
+F 3 "" H 8450 2250 50  0001 C CNN
+	1    8450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #GND03
+U 1 0 21137572
+P 8450 2450
+F 0 "#GND03" H 8450 2450 50  0001 C CNN
+F 1 "GND" H 8350 2350 59  0000 L BNN
+F 2 "" H 8450 2450 50  0001 C CNN
+F 3 "" H 8450 2450 50  0001 C CNN
+	1    8450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #GND06
+U 1 0 F6847280
+P 8450 2850
+F 0 "#GND06" H 8450 2850 50  0001 C CNN
+F 1 "GND" H 8350 2750 59  0000 L BNN
+F 2 "" H 8450 2850 50  0001 C CNN
+F 3 "" H 8450 2850 50  0001 C CNN
+	1    8450 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #GND012
+U 1 0 8C4C494A
+P 4600 2300
+F 0 "#GND012" H 4600 2300 50  0001 C CNN
+F 1 "GND" H 4500 2200 59  0000 L BNN
+F 2 "" H 4600 2300 50  0001 C CNN
+F 3 "" H 4600 2300 50  0001 C CNN
+	1    4600 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #GND07
+U 1 0 C2693486
+P 6000 1900
+F 0 "#GND07" H 6000 1900 50  0001 C CNN
+F 1 "GND" H 5900 1800 59  0000 L BNN
+F 2 "" H 6000 1900 50  0001 C CNN
+F 3 "" H 6000 1900 50  0001 C CNN
+	1    6000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:ATMEGA32U4-MU IC1
+U 1 0 AA6B0FCC
+P 10150 2550
+F 0 "IC1" H 10200 4500 59  0000 L BNN
+F 1 "ATMEGA32U4-MU" H 9950 4350 59  0000 L BNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:TQFN44_7MM" H 10150 2550 50  0001 C CNN
+F 3 "" H 10150 2550 50  0001 C CNN
+	1    10150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:CAP_CERAMIC0603_NO C14
+U 1 0 711FF4DB
+P 4600 1900
+F 0 "C14" V 4510 1949 50  0000 C CNN
+F 1 "1uF" V 4690 1949 50  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 4600 1900 50  0001 C CNN
+F 3 "" H 4600 1900 50  0001 C CNN
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:SPST_TACT-KMR2 SW1
+U 1 0 F85A3293
+P 5800 1600
+F 0 "SW1" V 5550 1500 59  0000 L BNN
+F 1 "SPST_TACT-KMR2" V 5825 1550 59  0000 L BNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:KMR2" H 5800 1600 50  0001 C CNN
+F 3 "" H 5800 1600 50  0001 C CNN
+	1    5800 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:+3V3 #+3V04
+U 1 0 3511C8A8
+P 3700 1300
+F 0 "#+3V04" H 3700 1300 50  0001 C CNN
+F 1 "+3V3" V 3600 1100 59  0000 L BNN
+F 2 "" H 3700 1300 50  0001 C CNN
+F 3 "" H 3700 1300 50  0001 C CNN
+	1    3700 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:+3V3 #+3V05
+U 1 0 54464806
+P 8750 1250
+F 0 "#+3V05" H 8750 1250 50  0001 C CNN
+F 1 "+3V3" V 8650 1050 59  0000 L BNN
+F 2 "" H 8750 1250 50  0001 C CNN
+F 3 "" H 8750 1250 50  0001 C CNN
+	1    8750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:+3V3 #+3V06
+U 1 0 776068A4
+P 8950 1950
+F 0 "#+3V06" H 8950 1950 50  0001 C CNN
+F 1 "+3V3" V 8850 1750 59  0000 L BNN
+F 2 "" H 8950 1950 50  0001 C CNN
+F 3 "" H 8950 1950 50  0001 C CNN
+	1    8950 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:+3V3 #+3V07
+U 1 0 A67731B0
+P 11350 1450
+F 0 "#+3V07" H 11350 1450 50  0001 C CNN
+F 1 "+3V3" V 11250 1250 59  0000 L BNN
+F 2 "" H 11350 1450 50  0001 C CNN
+F 3 "" H 11350 1450 50  0001 C CNN
+	1    11350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:VBUS #U$01
+U 1 0 89E33A62
+P 8150 650
+F 0 "#U$01" H 8150 650 50  0001 C CNN
+F 1 "VBUS" H 8090 690 42  0000 L BNN
+F 2 "" H 8150 650 50  0001 C CNN
+F 3 "" H 8150 650 50  0001 C CNN
+	1    8150 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:VBUS #U$03
+U 1 0 6E1B97F5
+P 1800 900
+F 0 "#U$03" H 1800 900 50  0001 C CNN
+F 1 "VBUS" H 1740 940 42  0000 L BNN
+F 2 "" H 1800 900 50  0001 C CNN
+F 3 "" H 1800 900 50  0001 C CNN
+	1    1800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:VBUS #U$08
+U 1 0 59F585D1
+P 8850 850
+F 0 "#U$08" H 8850 850 50  0001 C CNN
+F 1 "VBUS" H 8790 890 42  0000 L BNN
+F 2 "" H 8850 850 50  0001 C CNN
+F 3 "" H 8850 850 50  0001 C CNN
+	1    8850 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:VBAT #U$021
+U 1 0 CA2824D4
+P 2000 900
+F 0 "#U$021" H 2000 900 50  0001 C CNN
+F 1 "VBAT" H 1940 940 42  0000 L BNN
+F 2 "" H 2000 900 50  0001 C CNN
+F 3 "" H 2000 900 50  0001 C CNN
+	1    2000 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESONATORSMD Y1
+U 1 0 B4F86E18
+P 8950 2850
+F 0 "Y1" H 9050 2890 59  0000 L BNN
+F 1 "8MHz" H 9050 2550 59  0000 L BNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:RESONATOR-SMD" H 8950 2850 50  0001 C CNN
+F 3 "" H 8950 2850 50  0001 C CNN
+	1    8950 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:VREG_SOT23-5 U2
+U 1 0 49C2BC65
+P 2900 1600
+F 0 "U2" H 2600 1840 42  0000 L BNN
+F 1 "SPX3819-3.3" H 2600 1300 42  0000 L BNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:SOT23-5" H 2900 1600 50  0001 C CNN
+F 3 "" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:DIODE-SCHOTTKYSOD-123 D4
+U 1 0 E7F4F2A3
+P 2000 1200
+F 0 "D4" H 2000 1300 42  0000 C CNN
+F 1 "MBR120" H 2000 1102 42  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:SOD-123" H 2000 1200 50  0001 C CNN
+F 3 "" H 2000 1200 50  0001 C CNN
+	1    2000 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:NRF51822_MODULE_MDBT40 U1
+U 1 0 7A8AECE4
+P 3100 5600
+F 0 "U1" H 2000 6700 42  0000 L BNN
+F 1 "MBT40" H 2000 4400 42  0000 L BNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:BLE_MODULE_RAYTAC_MDBT40" H 3100 5600 50  0001 C CNN
+F 3 "" H 3100 5600 50  0001 C CNN
+	1    3100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:LED0805_NOOUTLINE D1
+U 1 0 5C7F6C2D
+P 5600 5900
+F 0 "D1" H 5550 6075 42  0000 C CNN
+F 1 "RED" H 5550 5790 42  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:IN-S124BR_LED" H 5600 5900 50  0001 C CNN
+F 3 "" H 5600 5900 50  0001 C CNN
+	1    5600 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:LED0805_NOOUTLINE D2
+U 1 0 28D22354
+P 6000 5900
+F 0 "D2" H 5950 6075 42  0000 C CNN
+F 1 "BLUE" H 5950 5790 42  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:IN-S124BR_LED" H 6000 5900 50  0001 C CNN
+F 3 "" H 6000 5900 50  0001 C CNN
+	1    6000 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESISTOR_0603_NOOUT R1
+U 1 0 936FD17E
+P 5600 5400
+F 0 "R1" H 5600 5500 50  0000 C CNN
+F 1 "2.2K" H 5600 5400 40  0000 C CNB
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 5600 5400 50  0001 C CNN
+F 3 "" H 5600 5400 50  0001 C CNN
+	1    5600 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESISTOR_0603_NOOUT R10
+U 1 0 0C1AFB60
+P 6000 5400
+F 0 "R10" H 6000 5500 50  0000 C CNN
+F 1 "2.2K" H 6000 5400 40  0000 C CNB
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 6000 5400 50  0001 C CNN
+F 3 "" H 6000 5400 50  0001 C CNN
+	1    6000 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$02
+U 1 0 87B7DF34
+P 5600 6200
+F 0 "#U$02" H 5600 6200 50  0001 C CNN
+F 1 "GND" H 5500 6100 59  0000 L BNN
+F 2 "" H 5600 6200 50  0001 C CNN
+F 3 "" H 5600 6200 50  0001 C CNN
+	1    5600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$04
+U 1 0 649D799B
+P 6000 6200
+F 0 "#U$04" H 6000 6200 50  0001 C CNN
+F 1 "GND" H 5900 6100 59  0000 L BNN
+F 2 "" H 6000 6200 50  0001 C CNN
+F 3 "" H 6000 6200 50  0001 C CNN
+	1    6000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$010
+U 1 0 2B263A79
+P 3700 7000
+F 0 "#U$010" H 3700 7000 50  0001 C CNN
+F 1 "GND" H 3600 6900 59  0000 L BNN
+F 2 "" H 3700 7000 50  0001 C CNN
+F 3 "" H 3700 7000 50  0001 C CNN
+	1    3700 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$05
+U 1 0 BCE09641
+P 2500 6900
+F 0 "#U$05" H 2500 6900 50  0001 C CNN
+F 1 "GND" H 2400 6800 59  0000 L BNN
+F 2 "" H 2500 6900 50  0001 C CNN
+F 3 "" H 2500 6900 50  0001 C CNN
+	1    2500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$012
+U 1 0 FCFA34DC
+P 1800 5000
+F 0 "#U$012" H 1800 5000 50  0001 C CNN
+F 1 "GND" H 1700 4900 59  0000 L BNN
+F 2 "" H 1800 5000 50  0001 C CNN
+F 3 "" H 1800 5000 50  0001 C CNN
+	1    1800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$013
+U 1 0 33430DC8
+P 4500 4700
+F 0 "#U$013" H 4500 4700 50  0001 C CNN
+F 1 "GND" H 4400 4600 59  0000 L BNN
+F 2 "" H 4500 4700 50  0001 C CNN
+F 3 "" H 4500 4700 50  0001 C CNN
+	1    4500 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:CAP_CERAMIC0603_NO C2
+U 1 0 AC671DB5
+P 2900 7200
+F 0 "C2" V 2810 7249 50  0000 C CNN
+F 1 "1uF" V 2990 7249 50  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 2900 7200 50  0001 C CNN
+F 3 "" H 2900 7200 50  0001 C CNN
+	1    2900 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$018
+U 1 0 5210CFB4
+P 3100 7300
+F 0 "#U$018" H 3100 7300 50  0001 C CNN
+F 1 "GND" H 3000 7200 59  0000 L BNN
+F 2 "" H 3100 7300 50  0001 C CNN
+F 3 "" H 3100 7300 50  0001 C CNN
+	1    3100 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$017
+U 1 0 29AF302F
+P 2800 6900
+F 0 "#U$017" H 2800 6900 50  0001 C CNN
+F 1 "GND" H 2700 6800 59  0000 L BNN
+F 2 "" H 2800 6900 50  0001 C CNN
+F 3 "" H 2800 6900 50  0001 C CNN
+	1    2800 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:+3V3 #+3V02
+U 1 0 816AD438
+P 1300 5200
+F 0 "#+3V02" H 1300 5200 50  0001 C CNN
+F 1 "+3V3" V 1200 5000 59  0000 L BNN
+F 2 "" H 1300 5200 50  0001 C CNN
+F 3 "" H 1300 5200 50  0001 C CNN
+	1    1300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:+3V3 #+3V03
+U 1 0 EB5F8C4A
+P 2300 6900
+F 0 "#+3V03" H 2300 6900 50  0001 C CNN
+F 1 "+3V3" V 2200 6700 59  0000 L BNN
+F 2 "" H 2300 6900 50  0001 C CNN
+F 3 "" H 2300 6900 50  0001 C CNN
+	1    2300 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:CON_JST_PH_2PIN X1
+U 1 0 8C6B6C8F
+P 4800 3300
+F 0 "X1" H 4550 3525 59  0000 L BNN
+F 1 "JSTPH" H 4550 3100 59  0000 L BNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:JSTPH2" H 4800 3300 50  0001 C CNN
+F 3 "" H 4800 3300 50  0001 C CNN
+	1    4800 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:VBAT #U$016
+U 1 0 44B01CF5
+P 4900 2800
+F 0 "#U$016" H 4900 2800 50  0001 C CNN
+F 1 "VBAT" H 4840 2840 42  0000 L BNN
+F 2 "" H 4900 2800 50  0001 C CNN
+F 3 "" H 4900 2800 50  0001 C CNN
+	1    4900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$022
+U 1 0 585CEF8C
+P 4900 3800
+F 0 "#U$022" H 4900 3800 50  0001 C CNN
+F 1 "GND" H 4800 3700 59  0000 L BNN
+F 2 "" H 4900 3800 50  0001 C CNN
+F 3 "" H 4900 3800 50  0001 C CNN
+	1    4900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:MCP73831_2 U3
+U 1 0 CDA6E5AA
+P 2500 3500
+F 0 "U3" H 2100 3950 42  0000 L BNN
+F 1 "MCP73831T-2ACI/OT" H 2100 3000 42  0000 L BNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:SOT23-5" H 2500 3500 50  0001 C CNN
+F 3 "" H 2500 3500 50  0001 C CNN
+	1    2500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:LED0805_NOOUTLINE CHG1
+U 1 0 84E678BB
+P 1500 3600
+F 0 "CHG1" H 1450 3775 42  0000 C CNN
+F 1 "ORANGE" H 1450 3490 42  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:IN-S124BR_LED" H 1500 3600 50  0001 C CNN
+F 3 "" H 1500 3600 50  0001 C CNN
+	1    1500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESISTOR_0603_NOOUT R2
+U 1 0 FA6D7899
+P 1800 3600
+F 0 "R2" H 1800 3700 50  0000 C CNN
+F 1 "1K" H 1800 3600 40  0000 C CNB
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 1800 3600 50  0001 C CNN
+F 3 "" H 1800 3600 50  0001 C CNN
+	1    1800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:CAP_CERAMIC0805-NOOUTLINE C3
+U 1 0 6F05E4D1
+P 3800 3600
+F 0 "C3" V 3710 3649 50  0000 C CNN
+F 1 "10µF" V 3890 3649 50  0000 C CNN
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0805-NO" H 3800 3600 50  0001 C CNN
+F 3 "" H 3800 3600 50  0001 C CNN
+	1    3800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$033
+U 1 0 6953EFA5
+P 3800 3800
+F 0 "#U$033" H 3800 3800 50  0001 C CNN
+F 1 "GND" H 3700 3700 59  0000 L BNN
+F 2 "" H 3800 3800 50  0001 C CNN
+F 3 "" H 3800 3800 50  0001 C CNN
+	1    3800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESISTOR_0603_NOOUT R8
+U 1 0 F23A12C2
+P 3400 3500
+F 0 "R8" H 3400 3600 50  0000 C CNN
+F 1 "10K\\" H 3400 3500 40  0000 C CNB
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 3400 3500 50  0001 C CNN
+F 3 "" H 3400 3500 50  0001 C CNN
+	1    3400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$036
+U 1 0 BA2602F5
+P 3600 3800
+F 0 "#U$036" H 3600 3800 50  0001 C CNN
+F 1 "GND" H 3500 3700 59  0000 L BNN
+F 2 "" H 3600 3800 50  0001 C CNN
+F 3 "" H 3600 3800 50  0001 C CNN
+	1    3600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:VBUS #U$038
+U 1 0 D00605AD
+P 1200 3000
+F 0 "#U$038" H 1200 3000 50  0001 C CNN
+F 1 "VBUS" H 1140 3040 42  0000 L BNN
+F 2 "" H 1200 3000 50  0001 C CNN
+F 3 "" H 1200 3000 50  0001 C CNN
+	1    1200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:VBAT #U$039
+U 1 0 1511A889
+P 3800 3200
+F 0 "#U$039" H 3800 3200 50  0001 C CNN
+F 1 "VBAT" H 3740 3240 42  0000 L BNN
+F 2 "" H 3800 3200 50  0001 C CNN
+F 3 "" H 3800 3200 50  0001 C CNN
+	1    3800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESISTOR_0603_NOOUT R3
+U 1 0 5E3BF956
+P 4400 3100
+F 0 "R3" H 4400 3200 50  0000 C CNN
+F 1 "100K" H 4400 3100 40  0000 C CNB
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 4400 3100 50  0001 C CNN
+F 3 "" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESISTOR_0603_NOOUT R6
+U 1 0 E5D7C87D
+P 4400 3500
+F 0 "R6" H 4400 3600 50  0000 C CNN
+F 1 "100K" H 4400 3500 40  0000 C CNB
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 4400 3500 50  0001 C CNN
+F 3 "" H 4400 3500 50  0001 C CNN
+	1    4400 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:VBAT #U$014
+U 1 0 0B5D2212
+P 4400 2800
+F 0 "#U$014" H 4400 2800 50  0001 C CNN
+F 1 "VBAT" H 4340 2840 42  0000 L BNN
+F 2 "" H 4400 2800 50  0001 C CNN
+F 3 "" H 4400 2800 50  0001 C CNN
+	1    4400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:GND #U$025
+U 1 0 A5CE1551
+P 4400 3800
+F 0 "#U$025" H 4400 3800 50  0001 C CNN
+F 1 "GND" H 4300 3700 59  0000 L BNN
+F 2 "" H 4400 3800 50  0001 C CNN
+F 3 "" H 4400 3800 50  0001 C CNN
+	1    4400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESISTOR_0603_NOOUT R9
+U 1 0 D76F26ED
+P 2200 1600
+F 0 "R9" H 2200 1700 50  0000 C CNN
+F 1 "100K" H 2200 1600 40  0000 C CNB
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 2200 1600 50  0001 C CNN
+F 3 "" H 2200 1600 50  0001 C CNN
+	1    2200 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 2700 1000 0    59   ~ 0
+POWER AND FILTERING
+Text Notes 2600 4300 0    59   ~ 0
+BLUEFRUIT LE MODULE (nRF51)
+Text Notes 5600 900  0    59   ~ 0
+RESET
+Text Notes 9300 300  0    59   ~ 0
+ATMEGA32U4 MCU
+Text Notes 2200 2900 0    59   ~ 0
+10K  = 100mA
+Text Notes 2200 3000 0    59   ~ 0
+5.0K  = 200mA
+Text Notes 3100 2900 0    59   ~ 0
+2.0K  = 500mA
+Text Notes 3100 3000 0    59   ~ 0
+1.0K  = 1000mA
+Wire Notes Line
+	1100 2600 5300 2600
+Text Notes 2500 2700 0    59   ~ 0
+LIPO & CHARGING
+Text GLabel 2700 6800 0    10   BiDi ~ 0
+DCC
+Text GLabel 4300 4800 0    10   BiDi ~ 0
+DEC2
+Wire Wire Line
+	1200 3200 1200 3600
+Wire Notes Line
+	5300 700  5300 4100
+Wire Notes Line
+	6200 700  6200 6100
+Wire Notes Line
+	1100 4100 11000 4100
+$Comp
+L keyboard_parts:KEYSW K?1
+U 1 1 5C6F136C
+P 1450 9300
+F 0 "K?1" H 1450 9533 60  0000 C CNN
+F 1 "KEYSW" H 1450 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 1450 9300 60  0001 C CNN
+F 3 "" H 1450 9300 60  0000 C CNN
+	1    1450 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K?2
+U 1 1 5C6F1F85
+P 2450 9300
+F 0 "K?2" H 2450 9533 60  0000 C CNN
+F 1 "KEYSW" H 2450 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 2450 9300 60  0001 C CNN
+F 3 "" H 2450 9300 60  0000 C CNN
+	1    2450 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K?3
+U 1 1 5C6F5262
+P 3450 9300
+F 0 "K?3" H 3450 9533 60  0000 C CNN
+F 1 "KEYSW" H 3450 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 3450 9300 60  0001 C CNN
+F 3 "" H 3450 9300 60  0000 C CNN
+	1    3450 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K?4
+U 1 1 5C6F6271
+P 4450 9300
+F 0 "K?4" H 4450 9533 60  0000 C CNN
+F 1 "KEYSW" H 4450 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 4450 9300 60  0001 C CNN
+F 3 "" H 4450 9300 60  0000 C CNN
+	1    4450 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K13
+U 1 1 5C70ED39
+P 5750 9300
+F 0 "K13" H 5750 9533 60  0000 C CNN
+F 1 "KEYSW" H 5750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 5750 9300 60  0001 C CNN
+F 3 "" H 5750 9300 60  0000 C CNN
+	1    5750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K17
+U 1 1 5C70ED3F
+P 6750 9300
+F 0 "K17" H 6750 9533 60  0000 C CNN
+F 1 "KEYSW" H 6750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 6750 9300 60  0001 C CNN
+F 3 "" H 6750 9300 60  0000 C CNN
+	1    6750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K21
+U 1 1 5C70ED45
+P 7750 9300
+F 0 "K21" H 7750 9533 60  0000 C CNN
+F 1 "KEYSW" H 7750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 7750 9300 60  0001 C CNN
+F 3 "" H 7750 9300 60  0000 C CNN
+	1    7750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K24
+U 1 1 5C70ED4B
+P 8750 9300
+F 0 "K24" H 8750 9533 60  0000 C CNN
+F 1 "KEYSW" H 8750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 8750 9300 60  0001 C CNN
+F 3 "" H 8750 9300 60  0000 C CNN
+	1    8750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K28
+U 1 1 5C715E1B
+P 9750 9300
+F 0 "K28" H 9750 9533 60  0000 C CNN
+F 1 "KEYSW" H 9750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 9750 9300 60  0001 C CNN
+F 3 "" H 9750 9300 60  0000 C CNN
+	1    9750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K31
+U 1 1 5C715E21
+P 10750 9300
+F 0 "K31" H 10750 9533 60  0000 C CNN
+F 1 "KEYSW" H 10750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 10750 9300 60  0001 C CNN
+F 3 "" H 10750 9300 60  0000 C CNN
+	1    10750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K35
+U 1 1 5C715E27
+P 11750 9300
+F 0 "K35" H 11750 9533 60  0000 C CNN
+F 1 "KEYSW" H 11750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 11750 9300 60  0001 C CNN
+F 3 "" H 11750 9300 60  0000 C CNN
+	1    11750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K39
+U 1 1 5C715E2D
+P 12750 9300
+F 0 "K39" H 12750 9533 60  0000 C CNN
+F 1 "KEYSW" H 12750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 12750 9300 60  0001 C CNN
+F 3 "" H 12750 9300 60  0000 C CNN
+	1    12750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K42
+U 1 1 5C71B20F
+P 13750 9300
+F 0 "K42" H 13750 9533 60  0000 C CNN
+F 1 "KEYSW" H 13750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 13750 9300 60  0001 C CNN
+F 3 "" H 13750 9300 60  0000 C CNN
+	1    13750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K46
+U 1 1 5C71B215
+P 14750 9300
+F 0 "K46" H 14750 9533 60  0000 C CNN
+F 1 "KEYSW" H 14750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 14750 9300 60  0001 C CNN
+F 3 "" H 14750 9300 60  0000 C CNN
+	1    14750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K49
+U 1 1 5C71B21B
+P 15750 9300
+F 0 "K49" H 15750 9533 60  0000 C CNN
+F 1 "KEYSW" H 15750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 15750 9300 60  0001 C CNN
+F 3 "" H 15750 9300 60  0000 C CNN
+	1    15750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K52
+U 1 1 5C71B221
+P 16750 9300
+F 0 "K52" H 16750 9533 60  0000 C CNN
+F 1 "KEYSW" H 16750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 16750 9300 60  0001 C CNN
+F 3 "" H 16750 9300 60  0000 C CNN
+	1    16750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K?5
+U 1 1 5C71F382
+P 17750 9300
+F 0 "K?5" H 17750 9533 60  0000 C CNN
+F 1 "KEYSW" H 17750 9200 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 17750 9300 60  0001 C CNN
+F 3 "" H 17750 9300 60  0000 C CNN
+	1    17750 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 9300 1750 8800
+Wire Wire Line
+	1750 8800 2750 8800
+Wire Wire Line
+	2750 8800 2750 9300
+Wire Wire Line
+	3750 9300 3750 8800
+Wire Wire Line
+	3750 8800 4750 8800
+Wire Wire Line
+	4750 8800 4750 9300
+Wire Wire Line
+	6050 9300 6050 8800
+Wire Wire Line
+	6050 8800 7050 8800
+Wire Wire Line
+	8050 9300 8050 8800
+Wire Wire Line
+	8050 8800 9050 8800
+Wire Wire Line
+	9050 8800 9050 9300
+Wire Wire Line
+	10050 9300 10050 8800
+Wire Wire Line
+	10050 8800 11050 8800
+Wire Wire Line
+	11050 8800 11050 9300
+Wire Wire Line
+	12050 9300 12050 8800
+Wire Wire Line
+	12050 8800 13050 8800
+Wire Wire Line
+	13050 8800 13050 9300
+Wire Wire Line
+	14050 8800 15050 8800
+Wire Wire Line
+	15050 8800 15050 9300
+Wire Wire Line
+	16050 8800 17050 8800
+Wire Wire Line
+	17050 8800 17050 9300
+Wire Wire Line
+	18050 9300 18050 8800
+$Comp
+L keyboard_parts:KEYSW K57
+U 1 1 5C74F498
+P 17750 12000
+F 0 "K57" H 17750 12233 60  0000 C CNN
+F 1 "KEYSW" H 17750 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_125H" H 17750 12000 60  0001 C CNN
+F 3 "" H 17750 12000 60  0000 C CNN
+	1    17750 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K54
+U 1 1 5C74F492
+P 16750 12000
+F 0 "K54" H 16750 12233 60  0000 C CNN
+F 1 "KEYSW" H 16750 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_125H" H 16750 12000 60  0001 C CNN
+F 3 "" H 16750 12000 60  0000 C CNN
+	1    16750 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K45
+U 1 1 5C74F480
+P 13750 12000
+F 0 "K45" H 13750 12233 60  0000 C CNN
+F 1 "KEYSW" H 13750 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_125H" H 13750 12000 60  0001 C CNN
+F 3 "" H 13750 12000 60  0000 C CNN
+	1    13750 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K38
+U 1 1 5C74F474
+P 11750 12000
+F 0 "K38" H 11750 12233 60  0000 C CNN
+F 1 "KEYSW" H 11750 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_225H" H 11750 12000 60  0001 C CNN
+F 3 "" H 11750 12000 60  0000 C CNN
+	1    11750 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K34
+U 1 1 5C74F46E
+P 10750 12000
+F 0 "K34" H 10750 12233 60  0000 C CNN
+F 1 "KEYSW" H 10750 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_200H" H 10750 12000 60  0001 C CNN
+F 3 "" H 10750 12000 60  0000 C CNN
+	1    10750 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K27
+U 1 1 5C74F462
+P 8750 12000
+F 0 "K27" H 8750 12233 60  0000 C CNN
+F 1 "KEYSW" H 8750 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_125H" H 8750 12000 60  0001 C CNN
+F 3 "" H 8750 12000 60  0000 C CNN
+	1    8750 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K20
+U 1 1 5C74F456
+P 6750 12000
+F 0 "K20" H 6750 12233 60  0000 C CNN
+F 1 "KEYSW" H 6750 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_125H" H 6750 12000 60  0001 C CNN
+F 3 "" H 6750 12000 60  0000 C CNN
+	1    6750 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K16
+U 1 1 5C74F450
+P 5750 12000
+F 0 "K16" H 5750 12233 60  0000 C CNN
+F 1 "KEYSW" H 5750 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_125H" H 5750 12000 60  0001 C CNN
+F 3 "" H 5750 12000 60  0000 C CNN
+	1    5750 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18050 11100 18050 10200
+$Comp
+L keyboard_parts:KEYSW K56
+U 1 1 5C741EBB
+P 17750 11100
+F 0 "K56" H 17750 11333 60  0000 C CNN
+F 1 "KEYSW" H 17750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_125H" H 17750 11100 60  0001 C CNN
+F 3 "" H 17750 11100 60  0000 C CNN
+	1    17750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K53
+U 1 1 5C741EB5
+P 16750 11100
+F 0 "K53" H 16750 11333 60  0000 C CNN
+F 1 "KEYSW" H 16750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 16750 11100 60  0001 C CNN
+F 3 "" H 16750 11100 60  0000 C CNN
+	1    16750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K51
+U 1 1 5C741EAF
+P 15750 11100
+F 0 "K51" H 15750 11333 60  0000 C CNN
+F 1 "KEYSW" H 15750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 15750 11100 60  0001 C CNN
+F 3 "" H 15750 11100 60  0000 C CNN
+	1    15750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K48
+U 1 1 5C741EA9
+P 14750 11100
+F 0 "K48" H 14750 11333 60  0000 C CNN
+F 1 "KEYSW" H 14750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 14750 11100 60  0001 C CNN
+F 3 "" H 14750 11100 60  0000 C CNN
+	1    14750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K44
+U 1 1 5C741EA3
+P 13750 11100
+F 0 "K44" H 13750 11333 60  0000 C CNN
+F 1 "KEYSW" H 13750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 13750 11100 60  0001 C CNN
+F 3 "" H 13750 11100 60  0000 C CNN
+	1    13750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K41
+U 1 1 5C741E9D
+P 12750 11100
+F 0 "K41" H 12750 11333 60  0000 C CNN
+F 1 "KEYSW" H 12750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 12750 11100 60  0001 C CNN
+F 3 "" H 12750 11100 60  0000 C CNN
+	1    12750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K37
+U 1 1 5C741E97
+P 11750 11100
+F 0 "K37" H 11750 11333 60  0000 C CNN
+F 1 "KEYSW" H 11750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 11750 11100 60  0001 C CNN
+F 3 "" H 11750 11100 60  0000 C CNN
+	1    11750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K33
+U 1 1 5C741E91
+P 10750 11100
+F 0 "K33" H 10750 11333 60  0000 C CNN
+F 1 "KEYSW" H 10750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 10750 11100 60  0001 C CNN
+F 3 "" H 10750 11100 60  0000 C CNN
+	1    10750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K30
+U 1 1 5C741E8B
+P 9750 11100
+F 0 "K30" H 9750 11333 60  0000 C CNN
+F 1 "KEYSW" H 9750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 9750 11100 60  0001 C CNN
+F 3 "" H 9750 11100 60  0000 C CNN
+	1    9750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K26
+U 1 1 5C741E85
+P 8750 11100
+F 0 "K26" H 8750 11333 60  0000 C CNN
+F 1 "KEYSW" H 8750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 8750 11100 60  0001 C CNN
+F 3 "" H 8750 11100 60  0000 C CNN
+	1    8750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K23
+U 1 1 5C741E7F
+P 7750 11100
+F 0 "K23" H 7750 11333 60  0000 C CNN
+F 1 "KEYSW" H 7750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 7750 11100 60  0001 C CNN
+F 3 "" H 7750 11100 60  0000 C CNN
+	1    7750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K19
+U 1 1 5C741E79
+P 6750 11100
+F 0 "K19" H 6750 11333 60  0000 C CNN
+F 1 "KEYSW" H 6750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 6750 11100 60  0001 C CNN
+F 3 "" H 6750 11100 60  0000 C CNN
+	1    6750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K15
+U 1 1 5C741E73
+P 5750 11100
+F 0 "K15" H 5750 11333 60  0000 C CNN
+F 1 "KEYSW" H 5750 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_175H" H 5750 11100 60  0001 C CNN
+F 3 "" H 5750 11100 60  0000 C CNN
+	1    5750 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K55
+U 1 1 5C7303A3
+P 17750 10200
+F 0 "K55" H 17750 10433 60  0000 C CNN
+F 1 "KEYSW" H 17750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_175H" H 17750 10200 60  0001 C CNN
+F 3 "" H 17750 10200 60  0000 C CNN
+	1    17750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K50
+U 1 1 5C730397
+P 15750 10200
+F 0 "K50" H 15750 10433 60  0000 C CNN
+F 1 "KEYSW" H 15750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 15750 10200 60  0001 C CNN
+F 3 "" H 15750 10200 60  0000 C CNN
+	1    15750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K47
+U 1 1 5C730391
+P 14750 10200
+F 0 "K47" H 14750 10433 60  0000 C CNN
+F 1 "KEYSW" H 14750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 14750 10200 60  0001 C CNN
+F 3 "" H 14750 10200 60  0000 C CNN
+	1    14750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K43
+U 1 1 5C73038B
+P 13750 10200
+F 0 "K43" H 13750 10433 60  0000 C CNN
+F 1 "KEYSW" H 13750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 13750 10200 60  0001 C CNN
+F 3 "" H 13750 10200 60  0000 C CNN
+	1    13750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K40
+U 1 1 5C730385
+P 12750 10200
+F 0 "K40" H 12750 10433 60  0000 C CNN
+F 1 "KEYSW" H 12750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 12750 10200 60  0001 C CNN
+F 3 "" H 12750 10200 60  0000 C CNN
+	1    12750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K36
+U 1 1 5C73037F
+P 11750 10200
+F 0 "K36" H 11750 10433 60  0000 C CNN
+F 1 "KEYSW" H 11750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 11750 10200 60  0001 C CNN
+F 3 "" H 11750 10200 60  0000 C CNN
+	1    11750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K32
+U 1 1 5C730379
+P 10750 10200
+F 0 "K32" H 10750 10433 60  0000 C CNN
+F 1 "KEYSW" H 10750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 10750 10200 60  0001 C CNN
+F 3 "" H 10750 10200 60  0000 C CNN
+	1    10750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K29
+U 1 1 5C730373
+P 9750 10200
+F 0 "K29" H 9750 10433 60  0000 C CNN
+F 1 "KEYSW" H 9750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 9750 10200 60  0001 C CNN
+F 3 "" H 9750 10200 60  0000 C CNN
+	1    9750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K25
+U 1 1 5C73036D
+P 8750 10200
+F 0 "K25" H 8750 10433 60  0000 C CNN
+F 1 "KEYSW" H 8750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 8750 10200 60  0001 C CNN
+F 3 "" H 8750 10200 60  0000 C CNN
+	1    8750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K22
+U 1 1 5C730367
+P 7750 10200
+F 0 "K22" H 7750 10433 60  0000 C CNN
+F 1 "KEYSW" H 7750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 7750 10200 60  0001 C CNN
+F 3 "" H 7750 10200 60  0000 C CNN
+	1    7750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K18
+U 1 1 5C730361
+P 6750 10200
+F 0 "K18" H 6750 10433 60  0000 C CNN
+F 1 "KEYSW" H 6750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 6750 10200 60  0001 C CNN
+F 3 "" H 6750 10200 60  0000 C CNN
+	1    6750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K14
+U 1 1 5C73035B
+P 5750 10200
+F 0 "K14" H 5750 10433 60  0000 C CNN
+F 1 "KEYSW" H 5750 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_125H" H 5750 10200 60  0001 C CNN
+F 3 "" H 5750 10200 60  0000 C CNN
+	1    5750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K12
+U 1 1 5C70937F
+P 4450 12000
+F 0 "K12" H 4450 12233 60  0000 C CNN
+F 1 "KEYSW" H 4450 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 4450 12000 60  0001 C CNN
+F 3 "" H 4450 12000 60  0000 C CNN
+	1    4450 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K9
+U 1 1 5C709379
+P 3450 12000
+F 0 "K9" H 3450 12233 60  0000 C CNN
+F 1 "KEYSW" H 3450 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 3450 12000 60  0001 C CNN
+F 3 "" H 3450 12000 60  0000 C CNN
+	1    3450 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5C709373
+P 2450 12000
+F 0 "K6" H 2450 12233 60  0000 C CNN
+F 1 "KEYSW" H 2450 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 2450 12000 60  0001 C CNN
+F 3 "" H 2450 12000 60  0000 C CNN
+	1    2450 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5C70936D
+P 1450 12000
+F 0 "K3" H 1450 12233 60  0000 C CNN
+F 1 "KEYSW" H 1450 11900 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 1450 12000 60  0001 C CNN
+F 3 "" H 1450 12000 60  0000 C CNN
+	1    1450 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K11
+U 1 1 5C703F21
+P 4450 11100
+F 0 "K11" H 4450 11333 60  0000 C CNN
+F 1 "KEYSW" H 4450 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 4450 11100 60  0001 C CNN
+F 3 "" H 4450 11100 60  0000 C CNN
+	1    4450 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K8
+U 1 1 5C703F1B
+P 3450 11100
+F 0 "K8" H 3450 11333 60  0000 C CNN
+F 1 "KEYSW" H 3450 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 3450 11100 60  0001 C CNN
+F 3 "" H 3450 11100 60  0000 C CNN
+	1    3450 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 5C703F15
+P 2450 11100
+F 0 "K5" H 2450 11333 60  0000 C CNN
+F 1 "KEYSW" H 2450 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 2450 11100 60  0001 C CNN
+F 3 "" H 2450 11100 60  0000 C CNN
+	1    2450 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5C703F0F
+P 1450 11100
+F 0 "K2" H 1450 11333 60  0000 C CNN
+F 1 "KEYSW" H 1450 11000 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 1450 11100 60  0001 C CNN
+F 3 "" H 1450 11100 60  0000 C CNN
+	1    1450 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K10
+U 1 1 5C6FC355
+P 4450 10200
+F 0 "K10" H 4450 10433 60  0000 C CNN
+F 1 "KEYSW" H 4450 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 4450 10200 60  0001 C CNN
+F 3 "" H 4450 10200 60  0000 C CNN
+	1    4450 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K7
+U 1 1 5C6FC34F
+P 3450 10200
+F 0 "K7" H 3450 10433 60  0000 C CNN
+F 1 "KEYSW" H 3450 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 3450 10200 60  0001 C CNN
+F 3 "" H 3450 10200 60  0000 C CNN
+	1    3450 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5C6FC349
+P 2450 10200
+F 0 "K4" H 2450 10433 60  0000 C CNN
+F 1 "KEYSW" H 2450 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 2450 10200 60  0001 C CNN
+F 3 "" H 2450 10200 60  0000 C CNN
+	1    2450 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5C6FC343
+P 1450 10200
+F 0 "K1" H 1450 10433 60  0000 C CNN
+F 1 "KEYSW" H 1450 10100 60  0001 C CNN
+F 2 "keyboard_parts:CHERRY_PCB_100H" H 1450 10200 60  0001 C CNN
+F 3 "" H 1450 10200 60  0000 C CNN
+	1    1450 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D3
+U 1 1 5CC43B22
+P 1150 9600
+F 0 "D3" H 1022 9550 60  0000 R CNN
+F 1 "D" V 1300 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 1150 9600 60  0001 C CNN
+F 3 "" H 1150 9600 60  0000 C CNN
+	1    1150 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D8
+U 1 1 5CC454F2
+P 2150 9600
+F 0 "D8" H 2022 9550 60  0000 R CNN
+F 1 "D" V 2300 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 2150 9600 60  0001 C CNN
+F 3 "" H 2150 9600 60  0000 C CNN
+	1    2150 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D12
+U 1 1 5CC4AA99
+P 3150 9600
+F 0 "D12" H 3022 9550 60  0000 R CNN
+F 1 "D" V 3300 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 3150 9600 60  0001 C CNN
+F 3 "" H 3150 9600 60  0000 C CNN
+	1    3150 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 9300 1150 9450
+$Comp
+L keyboard_parts:D D16
+U 1 1 5CC55B3C
+P 4150 9600
+F 0 "D16" H 4022 9550 60  0000 R CNN
+F 1 "D" V 4300 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 4150 9600 60  0001 C CNN
+F 3 "" H 4150 9600 60  0000 C CNN
+	1    4150 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D20
+U 1 1 5CC5B484
+P 5450 9600
+F 0 "D20" H 5322 9550 60  0000 R CNN
+F 1 "D" V 5600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 5450 9600 60  0001 C CNN
+F 3 "" H 5450 9600 60  0000 C CNN
+	1    5450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D24
+U 1 1 5CC60C1A
+P 6450 9600
+F 0 "D24" H 6322 9550 60  0000 R CNN
+F 1 "D" V 6600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 6450 9600 60  0001 C CNN
+F 3 "" H 6450 9600 60  0000 C CNN
+	1    6450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D28
+U 1 1 5CC6654B
+P 7450 9600
+F 0 "D28" H 7322 9550 60  0000 R CNN
+F 1 "D" V 7600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 7450 9600 60  0001 C CNN
+F 3 "" H 7450 9600 60  0000 C CNN
+	1    7450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D29
+U 1 1 5CC6C014
+P 7450 10500
+F 0 "D29" H 7322 10450 60  0000 R CNN
+F 1 "D" V 7600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 7450 10500 60  0001 C CNN
+F 3 "" H 7450 10500 60  0000 C CNN
+	1    7450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D25
+U 1 1 5CC717B6
+P 6450 10500
+F 0 "D25" H 6322 10450 60  0000 R CNN
+F 1 "D" V 6600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 6450 10500 60  0001 C CNN
+F 3 "" H 6450 10500 60  0000 C CNN
+	1    6450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D21
+U 1 1 5CC77164
+P 5450 10500
+F 0 "D21" H 5322 10450 60  0000 R CNN
+F 1 "D" V 5600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 5450 10500 60  0001 C CNN
+F 3 "" H 5450 10500 60  0000 C CNN
+	1    5450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D17
+U 1 1 5CC7CDEE
+P 4150 10500
+F 0 "D17" H 4022 10450 60  0000 R CNN
+F 1 "D" V 4300 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 4150 10500 60  0001 C CNN
+F 3 "" H 4150 10500 60  0000 C CNN
+	1    4150 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D13
+U 1 1 5CC828C4
+P 3150 10500
+F 0 "D13" H 3022 10450 60  0000 R CNN
+F 1 "D" V 3300 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 3150 10500 60  0001 C CNN
+F 3 "" H 3150 10500 60  0000 C CNN
+	1    3150 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D9
+U 1 1 5CC88142
+P 2150 10500
+F 0 "D9" H 2022 10450 60  0000 R CNN
+F 1 "D" V 2300 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 2150 10500 60  0001 C CNN
+F 3 "" H 2150 10500 60  0000 C CNN
+	1    2150 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D5
+U 1 1 5CC8D96F
+P 1150 10500
+F 0 "D5" H 1022 10450 60  0000 R CNN
+F 1 "D" V 1300 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 1150 10500 60  0001 C CNN
+F 3 "" H 1150 10500 60  0000 C CNN
+	1    1150 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D6
+U 1 1 5CC9972F
+P 1150 11400
+F 0 "D6" H 1022 11350 60  0000 R CNN
+F 1 "D" V 1300 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 1150 11400 60  0001 C CNN
+F 3 "" H 1150 11400 60  0000 C CNN
+	1    1150 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D10
+U 1 1 5CC9F279
+P 2150 11400
+F 0 "D10" H 2022 11350 60  0000 R CNN
+F 1 "D" V 2300 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 2150 11400 60  0001 C CNN
+F 3 "" H 2150 11400 60  0000 C CNN
+	1    2150 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D14
+U 1 1 5CCA4D80
+P 3150 11400
+F 0 "D14" H 3022 11350 60  0000 R CNN
+F 1 "D" V 3300 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 3150 11400 60  0001 C CNN
+F 3 "" H 3150 11400 60  0000 C CNN
+	1    3150 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D18
+U 1 1 5CCAA78E
+P 4150 11400
+F 0 "D18" H 4022 11350 60  0000 R CNN
+F 1 "D" V 4300 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 4150 11400 60  0001 C CNN
+F 3 "" H 4150 11400 60  0000 C CNN
+	1    4150 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D7
+U 1 1 5CCB01B6
+P 1150 12300
+F 0 "D7" H 1022 12250 60  0000 R CNN
+F 1 "D" V 1300 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 1150 12300 60  0001 C CNN
+F 3 "" H 1150 12300 60  0000 C CNN
+	1    1150 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D11
+U 1 1 5CCB5A57
+P 2150 12300
+F 0 "D11" H 2022 12250 60  0000 R CNN
+F 1 "D" V 2300 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 2150 12300 60  0001 C CNN
+F 3 "" H 2150 12300 60  0000 C CNN
+	1    2150 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D15
+U 1 1 5CCBB2F7
+P 3150 12300
+F 0 "D15" H 3022 12250 60  0000 R CNN
+F 1 "D" V 3300 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 3150 12300 60  0001 C CNN
+F 3 "" H 3150 12300 60  0000 C CNN
+	1    3150 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D19
+U 1 1 5CCC0DC8
+P 4150 12300
+F 0 "D19" H 4022 12250 60  0000 R CNN
+F 1 "D" V 4300 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 4150 12300 60  0001 C CNN
+F 3 "" H 4150 12300 60  0000 C CNN
+	1    4150 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D22
+U 1 1 5CCC6718
+P 5450 11400
+F 0 "D22" H 5322 11350 60  0000 R CNN
+F 1 "D" V 5600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 5450 11400 60  0001 C CNN
+F 3 "" H 5450 11400 60  0000 C CNN
+	1    5450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D26
+U 1 1 5CCCC368
+P 6450 11400
+F 0 "D26" H 6322 11350 60  0000 R CNN
+F 1 "D" V 6600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 6450 11400 60  0001 C CNN
+F 3 "" H 6450 11400 60  0000 C CNN
+	1    6450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D23
+U 1 1 5CCD1E91
+P 5450 12300
+F 0 "D23" H 5322 12250 60  0000 R CNN
+F 1 "D" V 5600 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 5450 12300 60  0001 C CNN
+F 3 "" H 5450 12300 60  0000 C CNN
+	1    5450 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D27
+U 1 1 5CCD7964
+P 6450 12300
+F 0 "D27" H 6322 12250 60  0000 R CNN
+F 1 "D" V 6600 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 6450 12300 60  0001 C CNN
+F 3 "" H 6450 12300 60  0000 C CNN
+	1    6450 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D30
+U 1 1 5CCDD175
+P 7450 11400
+F 0 "D30" H 7322 11350 60  0000 R CNN
+F 1 "D" V 7600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 7450 11400 60  0001 C CNN
+F 3 "" H 7450 11400 60  0000 C CNN
+	1    7450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D33
+U 1 1 5CCE2C30
+P 8450 11400
+F 0 "D33" H 8322 11350 60  0000 R CNN
+F 1 "D" V 8600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 8450 11400 60  0001 C CNN
+F 3 "" H 8450 11400 60  0000 C CNN
+	1    8450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D34
+U 1 1 5CCE847D
+P 8450 12300
+F 0 "D34" H 8322 12250 60  0000 R CNN
+F 1 "D" V 8600 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 8450 12300 60  0001 C CNN
+F 3 "" H 8450 12300 60  0000 C CNN
+	1    8450 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D32
+U 1 1 5CCEDFBF
+P 8450 10500
+F 0 "D32" H 8322 10450 60  0000 R CNN
+F 1 "D" V 8600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 8450 10500 60  0001 C CNN
+F 3 "" H 8450 10500 60  0000 C CNN
+	1    8450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D31
+U 1 1 5CCF37FD
+P 8450 9600
+F 0 "D31" H 8322 9550 60  0000 R CNN
+F 1 "D" V 8600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 8450 9600 60  0001 C CNN
+F 3 "" H 8450 9600 60  0000 C CNN
+	1    8450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D35
+U 1 1 5CCF9025
+P 9450 9600
+F 0 "D35" H 9322 9550 60  0000 R CNN
+F 1 "D" V 9600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 9450 9600 60  0001 C CNN
+F 3 "" H 9450 9600 60  0000 C CNN
+	1    9450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D38
+U 1 1 5CCFEA68
+P 10450 9600
+F 0 "D38" H 10322 9550 60  0000 R CNN
+F 1 "D" V 10600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 10450 9600 60  0001 C CNN
+F 3 "" H 10450 9600 60  0000 C CNN
+	1    10450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D36
+U 1 1 5CD0461F
+P 9450 10500
+F 0 "D36" H 9322 10450 60  0000 R CNN
+F 1 "D" V 9600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 9450 10500 60  0001 C CNN
+F 3 "" H 9450 10500 60  0000 C CNN
+	1    9450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D39
+U 1 1 5CD0A26E
+P 10450 10500
+F 0 "D39" H 10322 10450 60  0000 R CNN
+F 1 "D" V 10600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 10450 10500 60  0001 C CNN
+F 3 "" H 10450 10500 60  0000 C CNN
+	1    10450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D43
+U 1 1 5CD0FC3A
+P 11450 10500
+F 0 "D43" H 11322 10450 60  0000 R CNN
+F 1 "D" V 11600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 11450 10500 60  0001 C CNN
+F 3 "" H 11450 10500 60  0000 C CNN
+	1    11450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D42
+U 1 1 5CD15675
+P 11450 9600
+F 0 "D42" H 11322 9550 60  0000 R CNN
+F 1 "D" V 11600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 11450 9600 60  0001 C CNN
+F 3 "" H 11450 9600 60  0000 C CNN
+	1    11450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D37
+U 1 1 5CD1B44B
+P 9450 11400
+F 0 "D37" H 9322 11350 60  0000 R CNN
+F 1 "D" V 9600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 9450 11400 60  0001 C CNN
+F 3 "" H 9450 11400 60  0000 C CNN
+	1    9450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D40
+U 1 1 5CD20E2C
+P 10450 11400
+F 0 "D40" H 10322 11350 60  0000 R CNN
+F 1 "D" V 10600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 10450 11400 60  0001 C CNN
+F 3 "" H 10450 11400 60  0000 C CNN
+	1    10450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D44
+U 1 1 5CD26854
+P 11450 11400
+F 0 "D44" H 11322 11350 60  0000 R CNN
+F 1 "D" V 11600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 11450 11400 60  0001 C CNN
+F 3 "" H 11450 11400 60  0000 C CNN
+	1    11450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D41
+U 1 1 5CD2BFEE
+P 10450 12300
+F 0 "D41" H 10322 12250 60  0000 R CNN
+F 1 "D" V 10600 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 10450 12300 60  0001 C CNN
+F 3 "" H 10450 12300 60  0000 C CNN
+	1    10450 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D45
+U 1 1 5CD318E1
+P 11450 12300
+F 0 "D45" H 11322 12250 60  0000 R CNN
+F 1 "D" V 11600 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 11450 12300 60  0001 C CNN
+F 3 "" H 11450 12300 60  0000 C CNN
+	1    11450 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D48
+U 1 1 5CD372EF
+P 12450 11400
+F 0 "D48" H 12322 11350 60  0000 R CNN
+F 1 "D" V 12600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 12450 11400 60  0001 C CNN
+F 3 "" H 12450 11400 60  0000 C CNN
+	1    12450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D52
+U 1 1 5CD3CC76
+P 13450 12300
+F 0 "D52" H 13322 12250 60  0000 R CNN
+F 1 "D" V 13600 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 13450 12300 60  0001 C CNN
+F 3 "" H 13450 12300 60  0000 C CNN
+	1    13450 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D51
+U 1 1 5CD4231C
+P 13450 11400
+F 0 "D51" H 13322 11350 60  0000 R CNN
+F 1 "D" V 13600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 13450 11400 60  0001 C CNN
+F 3 "" H 13450 11400 60  0000 C CNN
+	1    13450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D55
+U 1 1 5CD47AF8
+P 14450 11400
+F 0 "D55" H 14322 11350 60  0000 R CNN
+F 1 "D" V 14600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 14450 11400 60  0001 C CNN
+F 3 "" H 14450 11400 60  0000 C CNN
+	1    14450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D47
+U 1 1 5CD4D428
+P 12450 10500
+F 0 "D47" H 12322 10450 60  0000 R CNN
+F 1 "D" V 12600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 12450 10500 60  0001 C CNN
+F 3 "" H 12450 10500 60  0000 C CNN
+	1    12450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D50
+U 1 1 5CD52E6C
+P 13450 10500
+F 0 "D50" H 13322 10450 60  0000 R CNN
+F 1 "D" V 13600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 13450 10500 60  0001 C CNN
+F 3 "" H 13450 10500 60  0000 C CNN
+	1    13450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D54
+U 1 1 5CD5884C
+P 14450 10500
+F 0 "D54" H 14322 10450 60  0000 R CNN
+F 1 "D" V 14600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 14450 10500 60  0001 C CNN
+F 3 "" H 14450 10500 60  0000 C CNN
+	1    14450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D46
+U 1 1 5CD5E455
+P 12450 9600
+F 0 "D46" H 12322 9550 60  0000 R CNN
+F 1 "D" V 12600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 12450 9600 60  0001 C CNN
+F 3 "" H 12450 9600 60  0000 C CNN
+	1    12450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D49
+U 1 1 5CD63BEB
+P 13450 9600
+F 0 "D49" H 13322 9550 60  0000 R CNN
+F 1 "D" V 13600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 13450 9600 60  0001 C CNN
+F 3 "" H 13450 9600 60  0000 C CNN
+	1    13450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D53
+U 1 1 5CD695E6
+P 14450 9600
+F 0 "D53" H 14322 9550 60  0000 R CNN
+F 1 "D" V 14600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 14450 9600 60  0001 C CNN
+F 3 "" H 14450 9600 60  0000 C CNN
+	1    14450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D56
+U 1 1 5CD6F104
+P 15450 9600
+F 0 "D56" H 15322 9550 60  0000 R CNN
+F 1 "D" V 15600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 15450 9600 60  0001 C CNN
+F 3 "" H 15450 9600 60  0000 C CNN
+	1    15450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D57
+U 1 1 5CD74B31
+P 15450 10500
+F 0 "D57" H 15322 10450 60  0000 R CNN
+F 1 "D" V 15600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 15450 10500 60  0001 C CNN
+F 3 "" H 15450 10500 60  0000 C CNN
+	1    15450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D58
+U 1 1 5CD7A562
+P 15450 11400
+F 0 "D58" H 15322 11350 60  0000 R CNN
+F 1 "D" V 15600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 15450 11400 60  0001 C CNN
+F 3 "" H 15450 11400 60  0000 C CNN
+	1    15450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D60
+U 1 1 5CD7FEF8
+P 16450 11400
+F 0 "D60" H 16322 11350 60  0000 R CNN
+F 1 "D" V 16600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 16450 11400 60  0001 C CNN
+F 3 "" H 16450 11400 60  0000 C CNN
+	1    16450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D61
+U 1 1 5CD859EB
+P 16450 12300
+F 0 "D61" H 16322 12250 60  0000 R CNN
+F 1 "D" V 16600 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 16450 12300 60  0001 C CNN
+F 3 "" H 16450 12300 60  0000 C CNN
+	1    16450 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D65
+U 1 1 5CD8B3EB
+P 17450 12300
+F 0 "D65" H 17322 12250 60  0000 R CNN
+F 1 "D" V 17600 12250 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 17450 12300 60  0001 C CNN
+F 3 "" H 17450 12300 60  0000 C CNN
+	1    17450 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D64
+U 1 1 5CD91028
+P 17450 11400
+F 0 "D64" H 17322 11350 60  0000 R CNN
+F 1 "D" V 17600 11350 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 17450 11400 60  0001 C CNN
+F 3 "" H 17450 11400 60  0000 C CNN
+	1    17450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D63
+U 1 1 5CD96953
+P 17450 10500
+F 0 "D63" H 17322 10450 60  0000 R CNN
+F 1 "D" V 17600 10450 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 17450 10500 60  0001 C CNN
+F 3 "" H 17450 10500 60  0000 C CNN
+	1    17450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D59
+U 1 1 5CD9C2C3
+P 16450 9600
+F 0 "D59" H 16322 9550 60  0000 R CNN
+F 1 "D" V 16600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 16450 9600 60  0001 C CNN
+F 3 "" H 16450 9600 60  0000 C CNN
+	1    16450 9600
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:D D62
+U 1 1 5CDA1AC9
+P 17450 9600
+F 0 "D62" H 17322 9550 60  0000 R CNN
+F 1 "D" V 17600 9550 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123" H 17450 9600 60  0001 C CNN
+F 3 "" H 17450 9600 60  0000 C CNN
+	1    17450 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 9300 1750 10200
+Connection ~ 1750 9300
+Wire Wire Line
+	1750 10200 1750 11100
+Connection ~ 1750 10200
+Wire Wire Line
+	1750 11100 1750 12000
+Connection ~ 1750 11100
+Wire Wire Line
+	2750 12000 2750 11100
+Wire Wire Line
+	2750 11100 2750 10200
+Connection ~ 2750 11100
+Wire Wire Line
+	2750 9300 2750 10200
+Connection ~ 2750 9300
+Connection ~ 2750 10200
+Wire Wire Line
+	3750 9300 3750 10200
+Connection ~ 3750 9300
+Wire Wire Line
+	3750 10200 3750 11100
+Connection ~ 3750 10200
+Wire Wire Line
+	3750 11100 3750 12000
+Connection ~ 3750 11100
+Wire Wire Line
+	4750 12000 4750 11100
+Wire Wire Line
+	4750 11100 4750 10200
+Connection ~ 4750 11100
+Wire Wire Line
+	4750 10200 4750 9300
+Connection ~ 4750 10200
+Connection ~ 4750 9300
+Wire Wire Line
+	6050 9300 6050 10200
+Connection ~ 6050 9300
+Wire Wire Line
+	6050 10200 6050 11100
+Connection ~ 6050 10200
+Wire Wire Line
+	6050 11100 6050 12000
+Connection ~ 6050 11100
+Wire Wire Line
+	7050 12000 7050 11100
+Wire Wire Line
+	7050 11100 7050 10200
+Connection ~ 7050 11100
+Wire Wire Line
+	7050 8800 7050 9300
+Connection ~ 7050 10200
+Connection ~ 7050 9300
+Wire Wire Line
+	7050 9300 7050 10200
+Wire Wire Line
+	8050 9300 8050 10200
+Connection ~ 8050 9300
+Wire Wire Line
+	8050 11100 8050 10200
+Connection ~ 8050 10200
+Wire Wire Line
+	9050 9300 9050 10200
+Connection ~ 9050 9300
+Wire Wire Line
+	9050 10200 9050 11100
+Connection ~ 9050 10200
+Wire Wire Line
+	9050 11100 9050 12000
+Connection ~ 9050 11100
+Wire Wire Line
+	10050 11100 10050 10200
+Wire Wire Line
+	10050 9300 10050 10200
+Connection ~ 10050 9300
+Connection ~ 10050 10200
+Wire Wire Line
+	11050 9300 11050 10200
+Connection ~ 11050 9300
+Wire Wire Line
+	11050 10200 11050 11100
+Connection ~ 11050 10200
+Wire Wire Line
+	11050 11100 11050 12000
+Connection ~ 11050 11100
+Wire Wire Line
+	12050 12000 12050 11100
+Wire Wire Line
+	12050 11100 12050 10200
+Connection ~ 12050 11100
+Wire Wire Line
+	12050 10200 12050 9300
+Connection ~ 12050 10200
+Connection ~ 12050 9300
+Wire Wire Line
+	13050 9300 13050 10200
+Connection ~ 13050 9300
+Wire Wire Line
+	13050 10200 13050 11100
+Connection ~ 13050 10200
+Wire Wire Line
+	14050 12000 14050 11100
+Wire Wire Line
+	14050 11100 14050 10200
+Connection ~ 14050 11100
+Wire Wire Line
+	14050 10200 14050 9300
+Connection ~ 14050 10200
+Wire Wire Line
+	14050 8800 14050 9300
+Connection ~ 14050 9300
+Wire Wire Line
+	15050 9300 15050 10200
+Connection ~ 15050 9300
+Wire Wire Line
+	15050 10200 15050 11100
+Connection ~ 15050 10200
+Wire Wire Line
+	16050 8800 16050 9300
+Wire Wire Line
+	16050 9300 16050 10200
+Connection ~ 16050 9300
+Wire Wire Line
+	16050 10200 16050 11100
+Connection ~ 16050 10200
+Wire Wire Line
+	17050 9300 17050 11100
+Connection ~ 17050 9300
+Wire Wire Line
+	17050 11100 17050 12000
+Connection ~ 17050 11100
+Wire Wire Line
+	18050 9300 18050 10200
+Connection ~ 18050 9300
+Connection ~ 18050 10200
+Wire Wire Line
+	18050 11100 18050 12000
+Connection ~ 18050 11100
+Wire Wire Line
+	2150 9650 2150 9700
+Wire Wire Line
+	2150 9700 4150 9700
+Wire Wire Line
+	4150 9700 4150 9650
+Wire Wire Line
+	4150 9700 6450 9700
+Wire Wire Line
+	6450 9700 6450 9650
+Connection ~ 4150 9700
+Wire Wire Line
+	6450 9700 8450 9700
+Wire Wire Line
+	8450 9700 8450 9650
+Connection ~ 6450 9700
+Wire Wire Line
+	8450 9700 10450 9700
+Wire Wire Line
+	10450 9700 10450 9650
+Connection ~ 8450 9700
+Wire Wire Line
+	10450 9700 12450 9700
+Wire Wire Line
+	12450 9700 12450 9650
+Connection ~ 10450 9700
+Wire Wire Line
+	12450 9700 14450 9700
+Wire Wire Line
+	14450 9700 14450 9650
+Connection ~ 12450 9700
+Wire Wire Line
+	14450 9700 16450 9700
+Wire Wire Line
+	16450 9700 16450 9650
+Connection ~ 14450 9700
+Wire Wire Line
+	1150 9650 1150 9750
+Wire Wire Line
+	1150 9750 3150 9750
+Wire Wire Line
+	3150 9750 3150 9650
+Wire Wire Line
+	3150 9750 5450 9750
+Wire Wire Line
+	5450 9750 5450 9650
+Connection ~ 3150 9750
+Wire Wire Line
+	5450 9750 7450 9750
+Wire Wire Line
+	7450 9750 7450 9650
+Connection ~ 5450 9750
+Wire Wire Line
+	7450 9750 9450 9750
+Wire Wire Line
+	9450 9750 9450 9650
+Connection ~ 7450 9750
+Wire Wire Line
+	9450 9750 11450 9750
+Wire Wire Line
+	11450 9750 11450 9650
+Connection ~ 9450 9750
+Wire Wire Line
+	11450 9750 13450 9750
+Wire Wire Line
+	13450 9750 13450 9650
+Connection ~ 11450 9750
+Wire Wire Line
+	13450 9750 15450 9750
+Wire Wire Line
+	15450 9750 15450 9650
+Connection ~ 13450 9750
+Wire Wire Line
+	15450 9750 17450 9750
+Wire Wire Line
+	17450 9750 17450 9650
+Connection ~ 15450 9750
+Wire Wire Line
+	16450 9700 18350 9700
+Wire Wire Line
+	18350 9700 18350 9500
+Wire Wire Line
+	18350 9500 18550 9500
+Connection ~ 16450 9700
+Wire Wire Line
+	17450 9750 18550 9750
+Connection ~ 17450 9750
+Wire Wire Line
+	2150 10550 2150 10600
+Wire Wire Line
+	2150 10600 4150 10600
+Wire Wire Line
+	4150 10600 4150 10550
+Wire Wire Line
+	4150 10600 6450 10600
+Wire Wire Line
+	6450 10600 6450 10550
+Connection ~ 4150 10600
+Wire Wire Line
+	6450 10600 8450 10600
+Wire Wire Line
+	8450 10600 8450 10550
+Connection ~ 6450 10600
+Wire Wire Line
+	8450 10600 10450 10600
+Wire Wire Line
+	10450 10600 10450 10550
+Connection ~ 8450 10600
+Wire Wire Line
+	10450 10600 12450 10600
+Wire Wire Line
+	12450 10600 12450 10550
+Connection ~ 10450 10600
+Wire Wire Line
+	12450 10600 14450 10600
+Wire Wire Line
+	14450 10600 14450 10550
+Connection ~ 12450 10600
+Wire Wire Line
+	14450 10600 17450 10600
+Wire Wire Line
+	17450 10600 17450 10550
+Connection ~ 14450 10600
+Wire Wire Line
+	1150 10550 1150 10650
+Wire Wire Line
+	1150 10650 3150 10650
+Wire Wire Line
+	3150 10650 3150 10550
+Wire Wire Line
+	3150 10650 5450 10650
+Wire Wire Line
+	5450 10650 5450 10550
+Connection ~ 3150 10650
+Wire Wire Line
+	5450 10650 7450 10650
+Wire Wire Line
+	7450 10650 7450 10550
+Connection ~ 5450 10650
+Wire Wire Line
+	7450 10650 9450 10650
+Wire Wire Line
+	9450 10650 9450 10550
+Connection ~ 7450 10650
+Wire Wire Line
+	9450 10650 11450 10650
+Wire Wire Line
+	11450 10650 11450 10550
+Connection ~ 9450 10650
+Wire Wire Line
+	11450 10650 13450 10650
+Wire Wire Line
+	13450 10650 13450 10550
+Connection ~ 11450 10650
+Wire Wire Line
+	13450 10650 15450 10650
+Wire Wire Line
+	15450 10650 15450 10550
+Connection ~ 13450 10650
+Wire Wire Line
+	15450 10650 18550 10650
+Connection ~ 15450 10650
+Wire Wire Line
+	17450 10600 18350 10600
+Wire Wire Line
+	18350 10600 18350 10400
+Wire Wire Line
+	18350 10400 18550 10400
+Connection ~ 17450 10600
+Wire Wire Line
+	2150 11450 2150 11500
+Wire Wire Line
+	2150 11500 4150 11500
+Wire Wire Line
+	4150 11500 4150 11450
+Wire Wire Line
+	4150 11500 6450 11500
+Wire Wire Line
+	6450 11500 6450 11450
+Connection ~ 4150 11500
+Wire Wire Line
+	6450 11500 8450 11500
+Wire Wire Line
+	8450 11500 8450 11450
+Connection ~ 6450 11500
+Wire Wire Line
+	8450 11500 10450 11500
+Wire Wire Line
+	10450 11500 10450 11450
+Connection ~ 8450 11500
+Wire Wire Line
+	10450 11500 12450 11500
+Wire Wire Line
+	12450 11500 12450 11450
+Connection ~ 10450 11500
+Wire Wire Line
+	12450 11500 14450 11500
+Wire Wire Line
+	14450 11500 14450 11450
+Connection ~ 12450 11500
+Wire Wire Line
+	14450 11500 16450 11500
+Wire Wire Line
+	16450 11500 16450 11450
+Connection ~ 14450 11500
+Wire Wire Line
+	1150 11450 1150 11550
+Wire Wire Line
+	1150 11550 3150 11550
+Wire Wire Line
+	3150 11550 3150 11450
+Wire Wire Line
+	3150 11550 5450 11550
+Wire Wire Line
+	5450 11550 5450 11450
+Connection ~ 3150 11550
+Wire Wire Line
+	5450 11550 7450 11550
+Wire Wire Line
+	7450 11550 7450 11450
+Connection ~ 5450 11550
+Wire Wire Line
+	7450 11550 9450 11550
+Wire Wire Line
+	9450 11550 9450 11450
+Connection ~ 7450 11550
+Wire Wire Line
+	9450 11550 11450 11550
+Wire Wire Line
+	11450 11550 11450 11450
+Connection ~ 9450 11550
+Wire Wire Line
+	11450 11550 13450 11550
+Wire Wire Line
+	13450 11550 13450 11450
+Connection ~ 11450 11550
+Wire Wire Line
+	13450 11550 15450 11550
+Wire Wire Line
+	15450 11550 15450 11450
+Connection ~ 13450 11550
+Wire Wire Line
+	15450 11550 17450 11550
+Wire Wire Line
+	17450 11550 17450 11450
+Connection ~ 15450 11550
+Wire Wire Line
+	17450 11550 18550 11550
+Connection ~ 17450 11550
+Wire Wire Line
+	16450 11500 18350 11500
+Wire Wire Line
+	18350 11500 18350 11300
+Wire Wire Line
+	18350 11300 18550 11300
+Connection ~ 16450 11500
+Wire Wire Line
+	2150 12350 2150 12400
+Wire Wire Line
+	2150 12400 4150 12400
+Wire Wire Line
+	4150 12400 4150 12350
+Wire Wire Line
+	4150 12400 6450 12400
+Wire Wire Line
+	6450 12400 6450 12350
+Connection ~ 4150 12400
+Wire Wire Line
+	6450 12400 10450 12400
+Wire Wire Line
+	10450 12400 10450 12350
+Connection ~ 6450 12400
+Wire Wire Line
+	10450 12400 13450 12400
+Wire Wire Line
+	13450 12400 13450 12350
+Connection ~ 10450 12400
+Wire Wire Line
+	13450 12400 17450 12400
+Wire Wire Line
+	17450 12400 17450 12350
+Connection ~ 13450 12400
+Wire Wire Line
+	17450 12400 18350 12400
+Wire Wire Line
+	18350 12400 18350 12150
+Wire Wire Line
+	18350 12150 18550 12150
+Connection ~ 17450 12400
+Wire Wire Line
+	1150 12350 1150 12450
+Wire Wire Line
+	1150 12450 3150 12450
+Wire Wire Line
+	3150 12450 3150 12350
+Wire Wire Line
+	3150 12450 5450 12450
+Wire Wire Line
+	5450 12450 5450 12350
+Connection ~ 3150 12450
+Wire Wire Line
+	5450 12450 8450 12450
+Wire Wire Line
+	8450 12450 8450 12350
+Connection ~ 5450 12450
+Wire Wire Line
+	8450 12450 11450 12450
+Wire Wire Line
+	11450 12450 11450 12350
+Connection ~ 8450 12450
+Wire Wire Line
+	11450 12450 16450 12450
+Wire Wire Line
+	16450 12450 16450 12350
+Connection ~ 11450 12450
+Wire Wire Line
+	16450 12450 18550 12450
+Connection ~ 16450 12450
+Wire Wire Line
+	2150 9300 2150 9450
+Wire Wire Line
+	3150 9300 3150 9450
+Wire Wire Line
+	4150 9300 4150 9450
+Wire Wire Line
+	5450 9300 5450 9450
+Wire Wire Line
+	5450 10200 5450 10350
+Wire Wire Line
+	4150 10200 4150 10350
+Wire Wire Line
+	3150 10200 3150 10350
+Wire Wire Line
+	2150 10200 2150 10350
+Wire Wire Line
+	1150 10200 1150 10350
+Wire Wire Line
+	1150 11100 1150 11250
+Wire Wire Line
+	2150 11100 2150 11250
+Wire Wire Line
+	3150 11100 3150 11250
+Wire Wire Line
+	4150 11100 4150 11250
+Wire Wire Line
+	1150 12000 1150 12150
+Wire Wire Line
+	2150 12000 2150 12150
+Wire Wire Line
+	3150 12000 3150 12150
+Wire Wire Line
+	4150 12000 4150 12150
+Wire Wire Line
+	5450 12000 5450 12150
+Wire Wire Line
+	6450 12000 6450 12150
+Wire Wire Line
+	8450 12000 8450 12150
+Wire Wire Line
+	8450 11100 8450 11250
+Wire Wire Line
+	7450 11100 7450 11250
+Wire Wire Line
+	6450 11100 6450 11250
+Wire Wire Line
+	5450 11100 5450 11250
+Wire Wire Line
+	6450 9300 6450 9450
+Wire Wire Line
+	7450 9300 7450 9450
+Wire Wire Line
+	8450 9300 8450 9450
+Wire Wire Line
+	6450 10200 6450 10350
+Wire Wire Line
+	7450 10200 7450 10350
+Wire Wire Line
+	8450 10200 8450 10350
+Wire Wire Line
+	9450 9300 9450 9450
+Wire Wire Line
+	9450 10200 9450 10350
+Wire Wire Line
+	9450 11100 9450 11250
+Wire Wire Line
+	10450 9300 10450 9450
+Wire Wire Line
+	10450 10200 10450 10350
+Wire Wire Line
+	10450 11100 10450 11250
+Wire Wire Line
+	11450 9300 11450 9450
+Wire Wire Line
+	11450 10200 11450 10350
+Wire Wire Line
+	11450 11100 11450 11250
+Wire Wire Line
+	12450 9300 12450 9450
+Wire Wire Line
+	12450 10200 12450 10350
+Wire Wire Line
+	12450 11100 12450 11250
+Wire Wire Line
+	13450 9300 13450 9450
+Wire Wire Line
+	13450 10200 13450 10350
+Wire Wire Line
+	13450 11100 13450 11250
+Wire Wire Line
+	14450 9300 14450 9450
+Wire Wire Line
+	14450 10200 14450 10350
+Wire Wire Line
+	14450 11100 14450 11250
+Wire Wire Line
+	15450 9300 15450 9450
+Wire Wire Line
+	15450 10200 15450 10350
+Wire Wire Line
+	15450 11100 15450 11250
+Wire Wire Line
+	16450 11100 16450 11250
+Wire Wire Line
+	17450 11100 17450 11250
+Wire Wire Line
+	17450 10200 17450 10350
+Wire Wire Line
+	16450 9300 16450 9450
+Wire Wire Line
+	17450 9300 17450 9450
+Wire Wire Line
+	17450 12000 17450 12150
+Wire Wire Line
+	16450 12000 16450 12150
+Wire Wire Line
+	13450 12000 13450 12150
+Wire Wire Line
+	11450 12000 11450 12150
+Wire Wire Line
+	10450 12000 10450 12150
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:RESISTOR0603MINI R7
+U 1 1 5C72B14A
+P 9050 650
+F 0 "R7" V 9012 728 50  0000 L CNN
+F 1 "10k" V 9096 728 40  0000 L CNB
+F 2 "Adafruit Feather 32u4 Bluefruit LE:0603-NO" H 9050 650 50  0001 C CNN
+F 3 "" H 9050 650 50  0001 C CNN
+	1    9050 650 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9050 450  8950 450 
+Wire Wire Line
+	8950 450  8950 1050
+Connection ~ 8950 1050
+Wire Wire Line
+	8950 1050 8850 1050
+$Comp
+L keyboard_parts:SW_PUSH SW2
+U 1 1 5C772F6C
+P 3600 7500
+F 0 "SW2" V 3554 7618 50  0000 L CNN
+F 1 "SW_PUSH" V 3645 7618 50  0000 L CNN
+F 2 "keyboard_parts:SW_TACTILE_SMD" H 3600 7500 60  0001 C CNN
+F 3 "" H 3600 7500 60  0000 C CNN
+	1    3600 7500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 7800 3250 7800
+Wire Wire Line
+	3250 7800 3250 7200
+Wire Wire Line
+	3250 7200 3100 7200
+Connection ~ 3100 7200
+$Comp
+L keyboard_parts:JTAG-CORTEXBOXPOSTS X2
+U 1 1 5C74B2EC
+P 7700 6750
+F 0 "X2" H 7700 7197 42  0000 C CNN
+F 1 "JTAG-CORTEXBOXPOSTS" H 7700 7118 42  0000 C CNN
+F 2 "keyboard_parts:2X05_1.27MM_BOX_POSTS" H 7700 6750 50  0001 C CNN
+F 3 "" H 7700 6750 50  0001 C CNN
+	1    7700 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5C74CB0E
+P 7100 6500
+F 0 "#PWR0101" H 7100 6350 50  0001 C CNN
+F 1 "+3.3V" H 7115 6673 50  0000 C CNN
+F 2 "" H 7100 6500 50  0001 C CNN
+F 3 "" H 7100 6500 50  0001 C CNN
+	1    7100 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 6550 7100 6550
+Wire Wire Line
+	7100 6550 7100 6500
+$Comp
+L power:GND #PWR0102
+U 1 1 5C777295
+P 7150 6950
+F 0 "#PWR0102" H 7150 6700 50  0001 C CNN
+F 1 "GND" H 7155 6777 50  0000 C CNN
+F 2 "" H 7150 6950 50  0001 C CNN
+F 3 "" H 7150 6950 50  0001 C CNN
+	1    7150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 6950 7300 6950
+Wire Wire Line
+	7400 6650 7300 6650
+Wire Wire Line
+	7300 6650 7300 6750
+Connection ~ 7300 6950
+Wire Wire Line
+	7300 6950 7150 6950
+Wire Wire Line
+	7400 6750 7300 6750
+Connection ~ 7300 6750
+Wire Wire Line
+	7300 6750 7300 6850
+Wire Wire Line
+	7400 6850 7300 6850
+Connection ~ 7300 6850
+Wire Wire Line
+	7300 6850 7300 6950
+Wire Wire Line
+	8000 6550 8200 6550
+Wire Wire Line
+	8200 6550 8200 6050
+Wire Wire Line
+	8200 6050 6250 6050
+Wire Wire Line
+	6250 6050 6250 6550
+Wire Wire Line
+	6250 6550 5400 6550
+Wire Wire Line
+	5400 6550 5400 5400
+Wire Wire Line
+	4300 5400 5400 5400
+Wire Wire Line
+	8000 6650 8200 6650
+Wire Wire Line
+	8200 6650 8200 7150
+Wire Wire Line
+	8200 7150 5250 7150
+Wire Wire Line
+	5250 7150 5250 5300
+Wire Wire Line
+	4300 5300 5250 5300
+Wire Wire Line
+	4300 5500 5100 5500
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:TESTPOINTPAD1MM TP1
+U 1 1 5C8E1347
+P 2400 600
+F 0 "TP1" H 2480 733 42  0000 L CNN
+F 1 "TESTPOINTPAD1MM" H 2480 654 42  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 2400 600 50  0001 C CNN
+F 3 "" H 2400 600 50  0001 C CNN
+	1    2400 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:TESTPOINTPAD1MM TP2
+U 1 1 5C8E2611
+P 3200 600
+F 0 "TP2" H 3280 733 42  0000 L CNN
+F 1 "TESTPOINTPAD1MM" H 3280 654 42  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 3200 600 50  0001 C CNN
+F 3 "" H 3200 600 50  0001 C CNN
+	1    3200 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5C8E50AF
+P 3200 700
+F 0 "#PWR0103" H 3200 450 50  0001 C CNN
+F 1 "GND" H 3205 527 50  0000 C CNN
+F 2 "" H 3200 700 50  0001 C CNN
+F 3 "" H 3200 700 50  0001 C CNN
+	1    3200 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 600  3200 700 
+Wire Wire Line
+	5100 5500 5100 7450
+Wire Wire Line
+	5100 7450 4800 7450
+Wire Wire Line
+	4800 7450 4800 7700
+$Comp
+L power:GND #PWR0104
+U 1 1 5C970AA2
+P 5700 7500
+F 0 "#PWR0104" H 5700 7250 50  0001 C CNN
+F 1 "GND" H 5705 7327 50  0000 C CNN
+F 2 "" H 5700 7500 50  0001 C CNN
+F 3 "" H 5700 7500 50  0001 C CNN
+	1    5700 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5700 7500 5700 7700
+Wire Wire Line
+	8050 1850 8150 1750
+Wire Wire Line
+	8050 1750 8150 1850
+Wire Wire Line
+	2400 1100 2450 1100
+Wire Wire Line
+	2450 1100 2450 1600
+Wire Wire Line
+	2400 600  2400 1100
+Connection ~ 2450 1600
+Wire Wire Line
+	2450 1600 2500 1600
+$Comp
+L keyboard_parts:PTC PTC1
+U 1 1 5C89A81B
+P 8150 1300
+F 0 "PTC1" H 8150 1615 50  0000 C CNN
+F 1 "PTC" H 8150 1524 50  0000 C CNN
+F 2 "keyboard_parts:PPTC_nano" V 8150 1300 60  0000 C CNN
+F 3 "" V 8150 1300 60  0000 C CNN
+	1    8150 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 750  8150 1050
+Wire Wire Line
+	8050 2150 8150 2150
+Connection ~ 8150 2150
+Wire Wire Line
+	8150 2150 8150 2250
+$Comp
+L keyboard_parts:SW_PUSH SW3
+U 1 1 5C761408
+P 5250 7700
+F 0 "SW3" H 5250 7398 50  0000 C CNN
+F 1 "SW_PUSH" H 5250 7489 50  0000 C CNN
+F 2 "keyboard_parts:SW_TACTILE_SMD" H 5250 7588 60  0000 C CNN
+F 3 "" H 5250 7700 60  0000 C CNN
+	1    5250 7700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 7700 4950 7700
+Wire Wire Line
+	5550 7700 5700 7700
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:TESTPOINTPAD1MM TP3
+U 1 1 5C7C87A3
+P 8750 6750
+F 0 "TP3" V 8710 6980 42  0000 L CNN
+F 1 "TESTPOINTPAD1MM" V 8789 6980 42  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 8750 6750 50  0001 C CNN
+F 3 "" H 8750 6750 50  0001 C CNN
+	1    8750 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:TESTPOINTPAD1MM TP4
+U 1 1 5C7C937C
+P 8750 7000
+F 0 "TP4" V 8710 7230 42  0000 L CNN
+F 1 "TESTPOINTPAD1MM" V 8789 7230 42  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 8750 7000 50  0001 C CNN
+F 3 "" H 8750 7000 50  0001 C CNN
+	1    8750 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_32u4_Bluefruit_LE-eagle-import:TESTPOINTPAD1MM TP5
+U 1 1 5C7CA1DC
+P 8750 7250
+F 0 "TP5" V 8710 7480 42  0000 L CNN
+F 1 "TESTPOINTPAD1MM" V 8789 7480 42  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 8750 7250 50  0001 C CNN
+F 3 "" H 8750 7250 50  0001 C CNN
+	1    8750 7250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 6750 8750 6750
+Wire Wire Line
+	8000 6850 8750 6850
+Wire Wire Line
+	8750 6850 8750 7000
+Wire Wire Line
+	8000 6950 8600 6950
+Wire Wire Line
+	8600 6950 8600 7250
+Wire Wire Line
+	8600 7250 8750 7250
+$Comp
+L keyboard_parts:USB_mini_micro_B J1
+U 1 1 5C789B38
+P 7900 1800
+F 0 "J1" H 7787 2091 60  0000 C CNN
+F 1 "USB_mini_micro_B" H 7750 2050 60  0001 C CNN
+F 2 "keyboard_parts:USB_miniB_hirose_5S8" H 7850 1800 60  0001 C CNN
+F 3 "" H 7850 1800 60  0000 C CNN
+	1    7900 1800
+	1    0    0    -1  
+$EndComp
+Text Label 2750 8800 0    50   ~ 0
+Col0
+Text Label 11750 3450 0    50   ~ 0
+Col0
+Text Label 11750 3550 0    50   ~ 0
+Col1
+Text Label 4750 8800 0    50   ~ 0
+Col1
+Text Label 7050 8800 0    50   ~ 0
+Col2
+Text Label 11750 850  0    50   ~ 0
+Col2
+Text Label 11750 950  0    50   ~ 0
+Col3
+Text Label 9050 8800 0    50   ~ 0
+Col3
+Text Label 11050 8800 0    50   ~ 0
+Col4
+Text Label 13050 8800 0    50   ~ 0
+Col5
+Text Label 15050 8800 0    50   ~ 0
+Col6
+Text Label 17050 8800 0    50   ~ 0
+Col7
+Text Label 18050 8800 0    50   ~ 0
+Col8
+Text Label 11150 2850 0    50   ~ 0
+Col4
+Text Label 18550 12450 0    50   ~ 0
+Row0
+Text Label 18550 12150 0    50   ~ 0
+Row7
+Text Label 18550 11550 0    50   ~ 0
+Row1
+Text Label 18550 11300 0    50   ~ 0
+Row6
+Text Label 18550 10650 0    50   ~ 0
+Row2
+Text Label 18550 10400 0    50   ~ 0
+Row5
+Text Label 18550 9750 0    50   ~ 0
+Row3
+Text Label 18550 9500 0    50   ~ 0
+Row4
+Text Label 11750 1150 0    50   ~ 0
+Row3
+Text Label 11750 1050 0    50   ~ 0
+Row4
+Text Label 11750 1350 0    50   ~ 0
+Row2
+Text Label 11750 1250 0    50   ~ 0
+Row5
+Text Label 11750 3650 0    50   ~ 0
+Col8
+Text Label 11750 3750 0    50   ~ 0
+Col7
+Text Label 11750 1850 0    50   ~ 0
+Col6
+Text Label 11750 3050 0    50   ~ 0
+Col5
+Text Label 11750 3150 0    50   ~ 0
+Row7
+Text Label 11750 2250 0    50   ~ 0
+Row0
+Text Label 11750 2150 0    50   ~ 0
+Row6
+Text Label 11750 1950 0    50   ~ 0
+Row1
+$EndSCHEMATC

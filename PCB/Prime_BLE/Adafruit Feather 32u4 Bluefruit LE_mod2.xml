@@ -1,0 +1,2505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Holt\OneDrive\Keyboard Stuff\BLE_Feather\Adafruit Feather 32u4 Bluefruit LE\Adafruit Feather 32u4 Bluefruit LE_mod2.sch</source>
+    <date>6/18/2019 4:00:07 PM</date>
+    <tool>Eeschema (6.0.0-rc1-dev-1313-gecff2ed38)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Adafruit Feather 32u4 Bluefruit LE_mod2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MBT40</value>
+      <footprint>Adafruit Feather 32u4 Bluefruit LE:BLE_MODULE_RAYTAC_MDBT40</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="NRF51822_MODULE_MDBT40" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7A8AECE4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>Adafruit Feather 32u4 Bluefruit LE:IN-S124BR_LED</footprint>
+      <libsource lib="Adafruit-Feather-32u4-Bluefruit-LE-rescue" part="LED0805_NOOUTLINE-Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7F6C2D</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BLUE</value>
+      <footprint>Adafruit Feather 32u4 Bluefruit LE:IN-S124BR_LED</footprint>
+      <libsource lib="Adafruit-Feather-32u4-Bluefruit-LE-rescue" part="LED0805_NOOUTLINE-Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>28D22354</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>936FD17E</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0C1AFB60</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0603_NO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>AC671DB5</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>JSTPH</value>
+      <footprint>Adafruit Feather 32u4 Bluefruit LE:JSTPH2</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CON_JST_PH_2PIN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8C6B6C8F</tstamp>
+    </comp>
+    <comp ref="CHG1">
+      <value>ORANGE</value>
+      <footprint>Adafruit Feather 32u4 Bluefruit LE:IN-S124BR_LED</footprint>
+      <libsource lib="Adafruit-Feather-32u4-Bluefruit-LE-rescue" part="LED0805_NOOUTLINE-Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>84E678BB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>FA6D7899</tstamp>
+    </comp>
+    <comp ref="K?1">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6F136C</tstamp>
+    </comp>
+    <comp ref="K?2">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6F1F85</tstamp>
+    </comp>
+    <comp ref="K?3">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6F5262</tstamp>
+    </comp>
+    <comp ref="K?4">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6F6271</tstamp>
+    </comp>
+    <comp ref="K13">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70ED39</tstamp>
+    </comp>
+    <comp ref="K17">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70ED3F</tstamp>
+    </comp>
+    <comp ref="K21">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70ED45</tstamp>
+    </comp>
+    <comp ref="K24">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70ED4B</tstamp>
+    </comp>
+    <comp ref="K28">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C715E1B</tstamp>
+    </comp>
+    <comp ref="K31">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C715E21</tstamp>
+    </comp>
+    <comp ref="K35">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C715E27</tstamp>
+    </comp>
+    <comp ref="K39">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C715E2D</tstamp>
+    </comp>
+    <comp ref="K42">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C71B20F</tstamp>
+    </comp>
+    <comp ref="K46">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C71B215</tstamp>
+    </comp>
+    <comp ref="K49">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C71B21B</tstamp>
+    </comp>
+    <comp ref="K52">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C71B221</tstamp>
+    </comp>
+    <comp ref="K?5">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C71F382</tstamp>
+    </comp>
+    <comp ref="K57">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74F498</tstamp>
+    </comp>
+    <comp ref="K54">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74F492</tstamp>
+    </comp>
+    <comp ref="K45">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74F480</tstamp>
+    </comp>
+    <comp ref="K38">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_225H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74F474</tstamp>
+    </comp>
+    <comp ref="K34">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_200H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74F46E</tstamp>
+    </comp>
+    <comp ref="K27">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74F462</tstamp>
+    </comp>
+    <comp ref="K20">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74F456</tstamp>
+    </comp>
+    <comp ref="K16">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74F450</tstamp>
+    </comp>
+    <comp ref="K56">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741EBB</tstamp>
+    </comp>
+    <comp ref="K53">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741EB5</tstamp>
+    </comp>
+    <comp ref="K51">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741EAF</tstamp>
+    </comp>
+    <comp ref="K48">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741EA9</tstamp>
+    </comp>
+    <comp ref="K44">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741EA3</tstamp>
+    </comp>
+    <comp ref="K41">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741E9D</tstamp>
+    </comp>
+    <comp ref="K37">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741E97</tstamp>
+    </comp>
+    <comp ref="K33">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741E91</tstamp>
+    </comp>
+    <comp ref="K30">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741E8B</tstamp>
+    </comp>
+    <comp ref="K26">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741E85</tstamp>
+    </comp>
+    <comp ref="K23">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741E7F</tstamp>
+    </comp>
+    <comp ref="K19">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741E79</tstamp>
+    </comp>
+    <comp ref="K15">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_175H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C741E73</tstamp>
+    </comp>
+    <comp ref="K55">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_175H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7303A3</tstamp>
+    </comp>
+    <comp ref="K50">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C730397</tstamp>
+    </comp>
+    <comp ref="K47">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C730391</tstamp>
+    </comp>
+    <comp ref="K43">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C73038B</tstamp>
+    </comp>
+    <comp ref="K40">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C730385</tstamp>
+    </comp>
+    <comp ref="K36">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C73037F</tstamp>
+    </comp>
+    <comp ref="K32">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C730379</tstamp>
+    </comp>
+    <comp ref="K29">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C730373</tstamp>
+    </comp>
+    <comp ref="K25">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C73036D</tstamp>
+    </comp>
+    <comp ref="K22">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C730367</tstamp>
+    </comp>
+    <comp ref="K18">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C730361</tstamp>
+    </comp>
+    <comp ref="K14">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_125H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C73035B</tstamp>
+    </comp>
+    <comp ref="K12">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70937F</tstamp>
+    </comp>
+    <comp ref="K9">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C709379</tstamp>
+    </comp>
+    <comp ref="K6">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C709373</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70936D</tstamp>
+    </comp>
+    <comp ref="K11">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C703F21</tstamp>
+    </comp>
+    <comp ref="K8">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C703F1B</tstamp>
+    </comp>
+    <comp ref="K5">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C703F15</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C703F0F</tstamp>
+    </comp>
+    <comp ref="K10">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6FC355</tstamp>
+    </comp>
+    <comp ref="K7">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6FC34F</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6FC349</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:CHERRY_PCB_100H</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6FC343</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC43B22</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC454F2</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC4AA99</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC55B3C</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC5B484</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC60C1A</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC6654B</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC6C014</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC717B6</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC77164</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC7CDEE</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC828C4</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC88142</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC8D96F</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC9972F</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC9F279</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCA4D80</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCAA78E</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCB01B6</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCB5A57</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCBB2F7</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCC0DC8</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCC6718</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCCC368</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD1E91</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD7964</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCDD175</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCE2C30</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCE847D</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCEDFBF</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCF37FD</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCF9025</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCFEA68</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD0461F</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD0A26E</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD0FC3A</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD15675</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD1B44B</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD20E2C</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD26854</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD2BFEE</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD318E1</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD372EF</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD3CC76</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD4231C</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD47AF8</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD4D428</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD52E6C</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD5884C</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD5E455</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD63BEB</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD695E6</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD6F104</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD74B31</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD7A562</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD7FEF8</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD859EB</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD8B3EB</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD91028</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD96953</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD9C2C3</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="keyboard_parts" part="D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDA1AC9</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_PUSH</value>
+      <footprint>keyboard_parts:SW_TACTILE_SMD</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C772F6C</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>JTAG-CORTEXBOXPOSTS</value>
+      <footprint>keyboard_parts:2X05_1.27MM_BOX_POSTS</footprint>
+      <libsource lib="keyboard_parts" part="JTAG-CORTEXBOXPOSTS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74B2EC</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_PUSH</value>
+      <footprint>keyboard_parts:SW_TACTILE_SMD</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C761408</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ATmega32U4-AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-AU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA1AB32</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP73831-2-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <libsource lib="Battery_Management" part="MCP73831-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA56005</tstamp>
+    </comp>
+    <comp ref="USB1">
+      <value>HRO-TYPE-C-31-M-12</value>
+      <footprint>keyboard_parts:HRO-TYPE-C-31-M-12-HandSoldering</footprint>
+      <libsource lib="Type-C" part="HRO-TYPE-C-31-M-12" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA57B8B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5AF3A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5B216</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5B515</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5B835</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5BCB5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5C18D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5CCA3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5D1EA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5D555</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5F953</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5FC40</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5FE68</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA601D7</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA60F11</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA61A40</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>keyboard_parts:SW_TACTILE_SMD</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA63F02</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA681E4</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>B340</value>
+      <footprint>Diode_SMD:D_SMA_Handsoldering</footprint>
+      <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</datasheet>
+      <libsource lib="Diode" part="B340" description="40V 3A Schottky Barrier Rectifier Diode, SMC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA1C240</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>PPTC</value>
+      <footprint>keyboard_parts:PPTC_nano</footprint>
+      <libsource lib="keyboard_parts" part="PPTC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA1F138</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_SPDT</value>
+      <footprint>Adafruit Feather 32u4 Bluefruit LE:SW_EG1212</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D570E21</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D83CFE7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>JTAG_ITF</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA1E40B</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MIC5219-3.3YM5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="MIC5219-3.3YM5" description="500mA low dropout linear regulator, fixed 3.3V output, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCE8261</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA21198</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA2178F</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFB2CB3</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D06B93F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4069F1</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>LED</value>
+      <footprint>Adafruit Feather 32u4 Bluefruit LE:IN-S124BR_LED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D068CD2</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>LED</value>
+      <footprint>Adafruit Feather 32u4 Bluefruit LE:IN-S124BR_LED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D06AB59</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D06CA70</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D06FBAF</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D14C9E2</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D14EE60</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Adafruit-Feather-32u4-Bluefruit-LE-rescue" part="LED0805_NOOUTLINE-Adafruit_Feather_32u4_Bluefruit_LE-eagle-import">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED0805_NOOUTLINE-Adafruit_Feather_32u4_Bluefruit_LE-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0603_NO">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_CERAMIC0603_NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_CERAMIC0805-NOOUTLINE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="CON_JST_PH_2PIN">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CON_JST_PH_2PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="NRF51822_MODULE_MDBT40">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NRF51822_MODULE_MDBT40</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND@1" type="power_in"/>
+        <pin num="2" name="GND@2" type="power_in"/>
+        <pin num="3" name="AVDD" type="power_in"/>
+        <pin num="4" name="P0.21" type="unspc"/>
+        <pin num="5" name="P0.22" type="unspc"/>
+        <pin num="6" name="P0.23" type="unspc"/>
+        <pin num="7" name="P0.24" type="unspc"/>
+        <pin num="8" name="P0.25" type="unspc"/>
+        <pin num="9" name="P0.26/AIN0/XL2" type="unspc"/>
+        <pin num="10" name="P0.27/AIN1/XL1" type="unspc"/>
+        <pin num="11" name="P0.28" type="unspc"/>
+        <pin num="12" name="P0.29" type="unspc"/>
+        <pin num="13" name="GND@3" type="power_in"/>
+        <pin num="14" name="VDD" type="power_in"/>
+        <pin num="15" name="DCC" type="power_in"/>
+        <pin num="16" name="P0.30" type="unspc"/>
+        <pin num="17" name="P0.00/AREF0" type="unspc"/>
+        <pin num="18" name="P0.01/AIN2" type="unspc"/>
+        <pin num="19" name="P0.02/AIN3" type="unspc"/>
+        <pin num="20" name="P0.03/AIN4" type="unspc"/>
+        <pin num="21" name="P0.04/AIN5" type="unspc"/>
+        <pin num="22" name="P0.05/AIN6" type="unspc"/>
+        <pin num="23" name="P0.06/AIN7/AREF1" type="unspc"/>
+        <pin num="24" name="P0.07" type="unspc"/>
+        <pin num="25" name="GND@4" type="power_in"/>
+        <pin num="26" name="P0.08" type="unspc"/>
+        <pin num="27" name="P0.09" type="unspc"/>
+        <pin num="28" name="P0.10" type="unspc"/>
+        <pin num="29" name="P0.11" type="unspc"/>
+        <pin num="30" name="P0.12" type="unspc"/>
+        <pin num="31" name="P0.13" type="unspc"/>
+        <pin num="32" name="P0.14" type="unspc"/>
+        <pin num="33" name="P0.15" type="unspc"/>
+        <pin num="34" name="P0.16" type="unspc"/>
+        <pin num="35" name="SWDIO/NRESET" type="unspc"/>
+        <pin num="36" name="SWCLK" type="unspc"/>
+        <pin num="37" name="P0.17" type="unspc"/>
+        <pin num="38" name="P0.18" type="unspc"/>
+        <pin num="39" name="P0.19" type="unspc"/>
+        <pin num="40" name="P0.20" type="unspc"/>
+        <pin num="41" name="DEC2" type="power_in"/>
+        <pin num="42" name="GND@5" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR_0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import" part="RESISTOR_0603_NOOUT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR_0603_NOOUT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="MCP73832-2-OT">
+      <aliases>
+        <alias>MCP73832-5-OT</alias>
+        <alias>MCP73832-4-OT</alias>
+        <alias>MCP73832-3-OT</alias>
+        <alias>MCP73831-2-OT</alias>
+        <alias>MCP73831-5-OT</alias>
+        <alias>MCP73831-4-OT</alias>
+        <alias>MCP73831-3-OT</alias>
+      </aliases>
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>*SOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73832-2-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="B320">
+      <aliases>
+        <alias>B330</alias>
+        <alias>B340</alias>
+        <alias>B350</alias>
+        <alias>B360</alias>
+      </aliases>
+      <description>20V 3A Schottky Barrier Rectifier Diode, SMC</description>
+      <docs>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</docs>
+      <footprints>
+        <fp>D*SMC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B320</field>
+        <field name="Footprint">Diode_SMD:D_SMC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16U4-AU">
+      <aliases>
+        <alias>ATmega16U4RC-AU</alias>
+        <alias>ATmega32U4-AU</alias>
+        <alias>ATmega32U4RC-AU</alias>
+      </aliases>
+      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16U4-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="3state"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="3state"/>
+        <pin num="9" name="PB1" type="3state"/>
+        <pin num="10" name="PB2" type="3state"/>
+        <pin num="11" name="PB3" type="3state"/>
+        <pin num="12" name="PB7" type="3state"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="3state"/>
+        <pin num="19" name="PD1" type="3state"/>
+        <pin num="20" name="PD2" type="3state"/>
+        <pin num="21" name="PD3" type="3state"/>
+        <pin num="22" name="PD5" type="3state"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="3state"/>
+        <pin num="26" name="PD6" type="3state"/>
+        <pin num="27" name="PD7" type="3state"/>
+        <pin num="28" name="PB4" type="3state"/>
+        <pin num="29" name="PB5" type="3state"/>
+        <pin num="30" name="PB6" type="3state"/>
+        <pin num="31" name="PC6" type="3state"/>
+        <pin num="32" name="PC7" type="3state"/>
+        <pin num="33" name="~HWB~/PE2" type="3state"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="3state"/>
+        <pin num="37" name="PF6" type="3state"/>
+        <pin num="38" name="PF5" type="3state"/>
+        <pin num="39" name="PF4" type="3state"/>
+        <pin num="40" name="PF1" type="3state"/>
+        <pin num="41" name="PF0" type="3state"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP131-15">
+      <aliases>
+        <alias>AP131-18</alias>
+        <alias>AP131-20</alias>
+        <alias>AP131-25</alias>
+        <alias>AP131-28</alias>
+        <alias>AP131-29</alias>
+        <alias>AP131-30</alias>
+        <alias>AP131-33</alias>
+        <alias>AP131-35</alias>
+        <alias>MIC5205-2.5YM5</alias>
+        <alias>MIC5205-2.7YM5</alias>
+        <alias>MIC5205-2.8YM5</alias>
+        <alias>MIC5205-2.85YM5</alias>
+        <alias>MIC5205-2.9YM5</alias>
+        <alias>MIC5205-3.0YM5</alias>
+        <alias>MIC5205-3.1YM5</alias>
+        <alias>MIC5205-3.2YM5</alias>
+        <alias>MIC5205-3.3YM5</alias>
+        <alias>MIC5205-3.6YM5</alias>
+        <alias>MIC5205-3.8YM5</alias>
+        <alias>MIC5205-4.0YM5</alias>
+        <alias>MIC5205-5.0YM5</alias>
+        <alias>MIC5219-2.5YM5</alias>
+        <alias>MIC5219-2.6YM5</alias>
+        <alias>MIC5219-2.7YM5</alias>
+        <alias>MIC5219-2.8YM5</alias>
+        <alias>MIC5219-2.85YM5</alias>
+        <alias>MIC5219-2.9YM5</alias>
+        <alias>MIC5219-3.0YM5</alias>
+        <alias>MIC5219-3.1YM5</alias>
+        <alias>MIC5219-3.3YM5</alias>
+        <alias>MIC5219-3.6YM5</alias>
+        <alias>MIC5219-5.0YM5</alias>
+        <alias>SPX3819M5-L-1-2</alias>
+        <alias>SPX3819M5-L-1-5</alias>
+        <alias>SPX3819M5-L-1-8</alias>
+        <alias>SPX3819M5-L-2-5</alias>
+        <alias>SPX3819M5-L-3-0</alias>
+        <alias>SPX3819M5-L-3-3</alias>
+        <alias>SPX3819M5-L-5-0</alias>
+      </aliases>
+      <description>300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package</description>
+      <docs>http://www.diodes.com/_files/datasheets/AP131.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP131-15</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Type-C" part="HRO-TYPE-C-31-M-12">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">HRO-TYPE-C-31-M-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VBUS" type="input"/>
+        <pin num="3" name="SBU2" type="input"/>
+        <pin num="4" name="CC1" type="input"/>
+        <pin num="5" name="DN2" type="input"/>
+        <pin num="6" name="DP1" type="input"/>
+        <pin num="7" name="DN1" type="input"/>
+        <pin num="8" name="DP2" type="input"/>
+        <pin num="9" name="SBU1" type="input"/>
+        <pin num="10" name="CC2" type="input"/>
+        <pin num="11" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="D">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="JTAG-CORTEXBOXPOSTS">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">JTAG-CORTEXBOXPOSTS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="SWDIO" type="unspc"/>
+        <pin num="3" name="GND@1" type="power_in"/>
+        <pin num="4" name="SWDCLK" type="unspc"/>
+        <pin num="5" name="GND@2" type="power_in"/>
+        <pin num="6" name="SWO" type="unspc"/>
+        <pin num="7" name="KEY" type="unspc"/>
+        <pin num="8" name="TDI" type="unspc"/>
+        <pin num="9" name="GNDDETECT" type="unspc"/>
+        <pin num="10" name="NRESET" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="KEYSW">
+      <fields>
+        <field name="Reference">K?</field>
+        <field name="Value">KEYSW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="PPTC">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">PPTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Adafruit-Feather-32u4-Bluefruit-LE-rescue">
+      <uri>C:\Users\Holt\OneDrive\Keyboard Stuff\BLE_Feather\Adafruit Feather 32u4 Bluefruit LE/Adafruit Feather 32u4 Bluefruit LE-rescue.lib</uri>
+    </library>
+    <library logical="Adafruit_Feather_32u4_Bluefruit_LE-eagle-import">
+      <uri>C:\Users\Holt\OneDrive\Keyboard Stuff\BLE_Feather\Adafruit Feather 32u4 Bluefruit LE/Adafruit_Feather_32u4_Bluefruit_LE-eagle-import.lib</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Battery_Management.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Type-C">
+      <uri>C:/Users/Holt/OneDrive/Keyboard Stuff/PCB Stuff/components Lib/Type-C.lib</uri>
+    </library>
+    <library logical="keyboard_parts">
+      <uri>C:/Users/Holt/OneDrive/Keyboard Stuff/PCB Stuff/components Lib/keyboard_parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/D-">
+      <node ref="U4" pin="3"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="2" name="/SWDIO_RST">
+      <node ref="U1" pin="35"/>
+      <node ref="X2" pin="2"/>
+      <node ref="U4" pin="25"/>
+    </net>
+    <net code="3" name="/CAPS">
+      <node ref="JP1" pin="1"/>
+      <node ref="U4" pin="22"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="5" name="/SCK">
+      <node ref="U4" pin="9"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="6" name="/D+">
+      <node ref="R6" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="7" name="/Col8">
+      <node ref="K57" pin="1"/>
+      <node ref="K?5" pin="1"/>
+      <node ref="K55" pin="1"/>
+      <node ref="K56" pin="1"/>
+      <node ref="U4" pin="21"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="X2" pin="7"/>
+      <node ref="X2" pin="9"/>
+      <node ref="X2" pin="5"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="D1" pin="C"/>
+      <node ref="D2" pin="C"/>
+      <node ref="C2" pin="2"/>
+      <node ref="X1" pin="1"/>
+      <node ref="U1" pin="42"/>
+      <node ref="D67" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="X2" pin="3"/>
+      <node ref="D66" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="SW4" pin="3"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="USB1" pin="13"/>
+      <node ref="U4" pin="15"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U4" pin="35"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U4" pin="23"/>
+      <node ref="U1" pin="25"/>
+      <node ref="USB1" pin="12"/>
+      <node ref="USB1" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="43"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="9" name="/NUML">
+      <node ref="J2" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="10" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="11" name="Net-(C4-Pad1)">
+      <node ref="U4" pin="16"/>
+      <node ref="Y1" pin="3"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="12" name="Net-(USB1-Pad3)">
+      <node ref="USB1" pin="3"/>
+    </net>
+    <net code="13" name="/MISO">
+      <node ref="U4" pin="11"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="14" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="USB1" pin="2"/>
+      <node ref="USB1" pin="11"/>
+    </net>
+    <net code="15" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="USB1" pin="6"/>
+      <node ref="USB1" pin="8"/>
+    </net>
+    <net code="16" name="Net-(R5-Pad1)">
+      <node ref="USB1" pin="5"/>
+      <node ref="R5" pin="1"/>
+      <node ref="USB1" pin="7"/>
+    </net>
+    <net code="17" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="USB1" pin="10"/>
+    </net>
+    <net code="18" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="USB1" pin="4"/>
+    </net>
+    <net code="19" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U4" pin="33"/>
+    </net>
+    <net code="20" name="Net-(USB1-Pad9)">
+      <node ref="USB1" pin="9"/>
+    </net>
+    <net code="21" name="Net-(R7-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="K?2" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D6-Pad2)">
+      <node ref="K2" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D5-Pad2)">
+      <node ref="K1" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D9-Pad2)">
+      <node ref="K4" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="K7" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D17-Pad2)">
+      <node ref="K10" pin="2"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="28" name="Net-(D21-Pad2)">
+      <node ref="K14" pin="2"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="29" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="K13" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D16-Pad2)">
+      <node ref="K?4" pin="2"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="K?3" pin="2"/>
+    </net>
+    <net code="32" name="/Row0">
+      <node ref="D7" pin="1"/>
+      <node ref="U4" pin="27"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D61" pin="1"/>
+    </net>
+    <net code="33" name="/Row7">
+      <node ref="D65" pin="1"/>
+      <node ref="U4" pin="26"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D41" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D10-Pad2)">
+      <node ref="K5" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="35" name="Net-(D65-Pad2)">
+      <node ref="D65" pin="2"/>
+      <node ref="K57" pin="2"/>
+    </net>
+    <net code="36" name="Net-(X2-Pad10)">
+      <node ref="X2" pin="10"/>
+    </net>
+    <net code="37" name="Net-(SW2-Pad2)">
+      <node ref="U1" pin="24"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D41-Pad2)">
+      <node ref="K34" pin="2"/>
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2"/>
+      <node ref="K38" pin="2"/>
+    </net>
+    <net code="40" name="Net-(D52-Pad2)">
+      <node ref="D52" pin="2"/>
+      <node ref="K45" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D61-Pad2)">
+      <node ref="K54" pin="2"/>
+      <node ref="D61" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D62-Pad2)">
+      <node ref="K?5" pin="2"/>
+      <node ref="D62" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D59-Pad2)">
+      <node ref="K52" pin="2"/>
+      <node ref="D59" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D63-Pad2)">
+      <node ref="K55" pin="2"/>
+      <node ref="D63" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D64-Pad2)">
+      <node ref="K56" pin="2"/>
+      <node ref="D64" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D60-Pad2)">
+      <node ref="D60" pin="2"/>
+      <node ref="K53" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D58-Pad2)">
+      <node ref="K51" pin="2"/>
+      <node ref="D58" pin="2"/>
+    </net>
+    <net code="48" name="Net-(D57-Pad2)">
+      <node ref="K50" pin="2"/>
+      <node ref="D57" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D56-Pad2)">
+      <node ref="D56" pin="2"/>
+      <node ref="K49" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D55-Pad2)">
+      <node ref="K48" pin="2"/>
+      <node ref="D55" pin="2"/>
+    </net>
+    <net code="51" name="Net-(X2-Pad8)">
+      <node ref="X2" pin="8"/>
+    </net>
+    <net code="52" name="Net-(X2-Pad6)">
+      <node ref="X2" pin="6"/>
+    </net>
+    <net code="53" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2"/>
+      <node ref="K27" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2"/>
+      <node ref="K22" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D25-Pad2)">
+      <node ref="K18" pin="2"/>
+      <node ref="D25" pin="2"/>
+    </net>
+    <net code="56" name="Net-(D31-Pad2)">
+      <node ref="K24" pin="2"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+      <node ref="K21" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D24-Pad2)">
+      <node ref="K17" pin="2"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="K15" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+      <node ref="K19" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D30-Pad2)">
+      <node ref="K23" pin="2"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D33-Pad2)">
+      <node ref="K26" pin="2"/>
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2"/>
+      <node ref="K25" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="K20" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D23-Pad2)">
+      <node ref="K16" pin="2"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D19-Pad2)">
+      <node ref="K12" pin="2"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="K9" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="K6" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D7-Pad2)">
+      <node ref="K3" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="K11" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D14-Pad2)">
+      <node ref="K8" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D44-Pad2)">
+      <node ref="K37" pin="2"/>
+      <node ref="D44" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D54-Pad2)">
+      <node ref="D54" pin="2"/>
+      <node ref="K47" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D53-Pad2)">
+      <node ref="D53" pin="2"/>
+      <node ref="K46" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2"/>
+      <node ref="K44" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D50-Pad2)">
+      <node ref="K43" pin="2"/>
+      <node ref="D50" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D49-Pad2)">
+      <node ref="D49" pin="2"/>
+      <node ref="K42" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D48-Pad2)">
+      <node ref="D48" pin="2"/>
+      <node ref="K41" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D47-Pad2)">
+      <node ref="K40" pin="2"/>
+      <node ref="D47" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D46-Pad2)">
+      <node ref="K39" pin="2"/>
+      <node ref="D46" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D43-Pad2)">
+      <node ref="K36" pin="2"/>
+      <node ref="D43" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D42-Pad2)">
+      <node ref="D42" pin="2"/>
+      <node ref="K35" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2"/>
+      <node ref="K33" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2"/>
+      <node ref="K32" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D38-Pad2)">
+      <node ref="K31" pin="2"/>
+      <node ref="D38" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D37-Pad2)">
+      <node ref="K30" pin="2"/>
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D36-Pad2)">
+      <node ref="K29" pin="2"/>
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D35-Pad2)">
+      <node ref="K28" pin="2"/>
+      <node ref="D35" pin="2"/>
+    </net>
+    <net code="89" name="/RST">
+      <node ref="J1" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="90" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="91" name="Net-(SW4-Pad2)">
+      <node ref="SW4" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="92" name="VBUS">
+      <node ref="F1" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="CHG1" pin="A"/>
+      <node ref="U4" pin="7"/>
+      <node ref="D4" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="93" name="+BATT">
+      <node ref="C11" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="X1" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="94" name="+3V3">
+      <node ref="C5" pin="1"/>
+      <node ref="U4" pin="34"/>
+      <node ref="U4" pin="24"/>
+      <node ref="U4" pin="14"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U4" pin="44"/>
+      <node ref="U4" pin="6"/>
+      <node ref="X2" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U4" pin="42"/>
+    </net>
+    <net code="95" name="/Row5">
+      <node ref="D63" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="U4" pin="39"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="96" name="/Row4">
+      <node ref="U4" pin="38"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D59" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="97" name="/Row3">
+      <node ref="D28" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="D20" pin="1"/>
+      <node ref="U4" pin="36"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D49" pin="1"/>
+    </net>
+    <net code="98" name="Net-(JP2-Pad2)">
+      <node ref="R12" pin="1"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="99" name="Net-(JP1-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D66-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="D66" pin="2"/>
+    </net>
+    <net code="101" name="Net-(D67-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="D67" pin="2"/>
+    </net>
+    <net code="102" name="Net-(C1-Pad1)">
+      <node ref="U4" pin="17"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="103" name="/Col5">
+      <node ref="K35" pin="1"/>
+      <node ref="K39" pin="1"/>
+      <node ref="K41" pin="1"/>
+      <node ref="K40" pin="1"/>
+      <node ref="K36" pin="1"/>
+      <node ref="K37" pin="1"/>
+      <node ref="K38" pin="1"/>
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="104" name="Net-(D3-Pad2)">
+      <node ref="K?1" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="105" name="/Row1">
+      <node ref="D30" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="U4" pin="30"/>
+    </net>
+    <net code="106" name="/Col3">
+      <node ref="K21" pin="1"/>
+      <node ref="U4" pin="32"/>
+      <node ref="K22" pin="1"/>
+      <node ref="K24" pin="1"/>
+      <node ref="K25" pin="1"/>
+      <node ref="K23" pin="1"/>
+      <node ref="K26" pin="1"/>
+      <node ref="K27" pin="1"/>
+    </net>
+    <net code="107" name="/Col4">
+      <node ref="K32" pin="1"/>
+      <node ref="K29" pin="1"/>
+      <node ref="U4" pin="31"/>
+      <node ref="K28" pin="1"/>
+      <node ref="K31" pin="1"/>
+      <node ref="K34" pin="1"/>
+      <node ref="K33" pin="1"/>
+      <node ref="K30" pin="1"/>
+    </net>
+    <net code="108" name="/Col0">
+      <node ref="K2" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="K5" pin="1"/>
+      <node ref="K6" pin="1"/>
+      <node ref="K?2" pin="1"/>
+      <node ref="K3" pin="1"/>
+      <node ref="K?1" pin="1"/>
+      <node ref="K1" pin="1"/>
+      <node ref="K4" pin="1"/>
+    </net>
+    <net code="109" name="/Col1">
+      <node ref="U4" pin="41"/>
+      <node ref="K7" pin="1"/>
+      <node ref="K11" pin="1"/>
+      <node ref="K8" pin="1"/>
+      <node ref="K12" pin="1"/>
+      <node ref="K9" pin="1"/>
+      <node ref="K?3" pin="1"/>
+      <node ref="K?4" pin="1"/>
+      <node ref="K10" pin="1"/>
+    </net>
+    <net code="110" name="/FCTRYRST">
+      <node ref="U1" pin="34"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="112" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="113" name="Net-(D1-PadA)">
+      <node ref="D1" pin="A"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="114" name="/CONNECTED">
+      <node ref="R10" pin="1"/>
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="115" name="/MODE">
+      <node ref="U1" pin="38"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="116" name="/SWCLK">
+      <node ref="U1" pin="36"/>
+      <node ref="X2" pin="4"/>
+    </net>
+    <net code="117" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="118" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="119" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="120" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="121" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="122" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="123" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="124" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="125" name="DCC">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="126" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="127" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="128" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="129" name="/MOSI">
+      <node ref="U4" pin="10"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="130" name="/BLE_CS">
+      <node ref="U1" pin="7"/>
+      <node ref="U4" pin="28"/>
+    </net>
+    <net code="131" name="/BLE_IRQ">
+      <node ref="U1" pin="8"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="132" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="133" name="/Col2">
+      <node ref="K19" pin="1"/>
+      <node ref="K16" pin="1"/>
+      <node ref="K15" pin="1"/>
+      <node ref="K13" pin="1"/>
+      <node ref="K17" pin="1"/>
+      <node ref="U4" pin="40"/>
+      <node ref="K14" pin="1"/>
+      <node ref="K18" pin="1"/>
+      <node ref="K20" pin="1"/>
+    </net>
+    <net code="134" name="/Col6">
+      <node ref="U4" pin="19"/>
+      <node ref="K42" pin="1"/>
+      <node ref="K46" pin="1"/>
+      <node ref="K45" pin="1"/>
+      <node ref="K48" pin="1"/>
+      <node ref="K44" pin="1"/>
+      <node ref="K43" pin="1"/>
+      <node ref="K47" pin="1"/>
+    </net>
+    <net code="135" name="/Col7">
+      <node ref="K51" pin="1"/>
+      <node ref="K53" pin="1"/>
+      <node ref="K54" pin="1"/>
+      <node ref="U4" pin="20"/>
+      <node ref="K50" pin="1"/>
+      <node ref="K49" pin="1"/>
+      <node ref="K52" pin="1"/>
+    </net>
+    <net code="136" name="Net-(CHG1-PadC)">
+      <node ref="R2" pin="1"/>
+      <node ref="CHG1" pin="C"/>
+    </net>
+    <net code="137" name="DEC2">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="138" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="139" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="140" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="141" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="142" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="143" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="144" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="145" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="146" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="147" name="/Row6">
+      <node ref="D60" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="U4" pin="29"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D33" pin="1"/>
+    </net>
+    <net code="148" name="/Row2">
+      <node ref="D43" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="U4" pin="37"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+  </nets>
+</export>

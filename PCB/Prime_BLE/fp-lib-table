@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Adafruit Feather 32u4 Bluefruit LE")(type KiCad)(uri "$(KIPRJMOD)/Adafruit Feather 32u4 Bluefruit LE.pretty")(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri "C:/Users/Holt/OneDrive/Keyboard Stuff/PCB Stuff/keyboard_parts.pretty-master")(options "")(descr ""))
+)
