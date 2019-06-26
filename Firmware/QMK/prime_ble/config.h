@@ -33,16 +33,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Keyboard Matrix Assignments */
 #define MATRIX_ROW_PINS { D7, B6, F6, F7, F5, F4, B5, D6 }
-#define MATRIX_COL_PINS { B0, F0, F1, C7, C6, D0, D1, D2, D3 }
+#define MATRIX_COL_PINS { D5, F0, F1, C7, C6, D0, D1, D2, D3 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
 
-/*
-#define BACKLIGHT_PIN B7
-#define BACKLIGHT_LEVELS 5
-*/
+
+//#define BACKLIGHT_PIN B7
+//define BACKLIGHT_LEVELS 5
+
 
 /*Bluetooth */
 #define AdafruitBleResetPin D4
@@ -50,7 +50,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define AdafruitBlEIRQPin E6
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
+#define DEBOUNCING_DELAY 5
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
@@ -72,7 +72,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Dynamic keymap starts after EEPROM version
 #define DYNAMIC_KEYMAP_EEPROM_ADDR 35
-// Dynamic macro starts after dynamic keymaps (35+(4*10*9*2)) = (35+576)
+// Dynamic macro starts after dynamic keymaps (35+(4*8*9*2)) = (35+576)
 #define DYNAMIC_KEYMAP_MACRO_EEPROM_ADDR 611
 #define DYNAMIC_KEYMAP_MACRO_EEPROM_SIZE 413    // 1024-DYNAMIC_KEYMAP_MACRO_EEPROM_ADDR
 #define DYNAMIC_KEYMAP_MACRO_COUNT 16

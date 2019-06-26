@@ -16,7 +16,7 @@
 //#ifndef PRIME_EXL_H
 //#define PRIME_EXL_H
 
-#pragma once
+
 #include "quantum.h"
 
 #define LAYOUT( \
