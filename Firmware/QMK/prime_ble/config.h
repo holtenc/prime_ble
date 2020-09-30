@@ -33,7 +33,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Keyboard Matrix Assignments */
 #define MATRIX_ROW_PINS { D7, B6, F6, F7, F5, F4, B5, D6 }
-#define MATRIX_COL_PINS { D5, F0, F1, C7, C6, D0, D1, D2, D3 }
+#define MATRIX_COL_PINS { B7, F0, F1, C7, C6, D0, D1, D2, D3 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
