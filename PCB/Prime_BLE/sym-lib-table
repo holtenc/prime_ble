@@ -5,4 +5,5 @@
   (lib (name Type-C)(type Legacy)(uri "C:/Users/Holt/OneDrive/Keyboard Stuff/PCB Stuff/components Lib/Type-C.lib")(options "")(descr ""))
   (lib (name Adafruit-Feather-32u4-Bluefruit-LE_mod-rescue)(type Legacy)(uri "${KIPRJMOD}/Adafruit Feather 32u4 Bluefruit LE_mod-rescue.lib")(options "")(descr ""))
   (lib (name Adafruit_Feather_32u4_Bluefruit_LE_mod2-cache)(type Legacy)(uri "${KIPRJMOD}/Adafruit Feather 32u4 Bluefruit LE_mod2-cache.lib")(options "")(descr ""))
+  (lib (name Adafruit-Feather-32u4-Bluefruit-LE_mod2-rescue)(type Legacy)(uri "${KIPRJMOD}/Adafruit Feather 32u4 Bluefruit LE_mod2-rescue.lib")(options "")(descr ""))
 )
