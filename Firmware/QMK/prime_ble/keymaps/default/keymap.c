@@ -77,32 +77,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 }
 */
 
-void matrix_init_user(void) {
-  // set CapsLock LED to output and low
-  //setPinOutput(D5);
- // writePinLow(D5);
-  // set NumLock LED to output and low
-  setPinOutput(B7);
-  writePinLow(B7);
-}
-
-void matrix_scan_user(void) {
-
-}
-
-
-void led_set_user(uint8_t usb_led) {
-  if (IS_LED_ON(usb_led, USB_LED_NUM_LOCK)) {
-    writePinHigh(B7);
-  } else {
-    writePinLow(B7);
-  }
-  /*if (IS_LED_ON(usb_led, USB_LED_CAPS_LOCK)) {
-    writePinHigh(D5);
-  } else {
-    writePinLow(D5);
-  }*/
-
   /*
   if (IS_LED_ON(usb_led, USB_LED_SCROLL_LOCK)) {
     writePinHigh(C6);
@@ -110,7 +84,7 @@ void led_set_user(uint8_t usb_led) {
     writePinLow(C6);
   }
   */
-}
+
 
 /*
 //function for layer indicator LED
